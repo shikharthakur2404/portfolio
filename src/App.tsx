@@ -268,6 +268,23 @@ export default function App() {
               </p>
             </div>
           </div>
+
+          {/* Paper Download & Citation HUD */}
+          <div className="mt-8 p-6 rounded-2xl bg-indigo-950/20 border border-indigo-500/20 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div>
+              <div className="text-white font-bold text-sm">Full Working Paper (Uncropped Preprint)</div>
+              <div className="text-xs text-slate-400 font-mono mt-1">Includes 99k LOC FytlY case telemetry, commit distributions & Appendices A–D</div>
+            </div>
+            <div className="flex gap-3 w-full sm:w-auto">
+              <a
+                href="/The_Productivity_Paradox_of_Generative_AI_in_Software_Development.pdf"
+                download="The_Productivity_Paradox_of_Generative_AI_in_Software_Development.pdf"
+                className="flex-1 sm:flex-initial px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-mono text-xs font-semibold transition-all shadow-lg shadow-indigo-600/20 flex items-center justify-center gap-2"
+              >
+                <BookOpen className="w-4 h-4" /> Download PDF (871 KB)
+              </a>
+            </div>
+          </div>
         </section>
 
         {/* ── Section 3: Generative Visual Computing Triad ── */}
