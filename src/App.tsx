@@ -105,7 +105,7 @@ export default function App() {
             </div>
             <div className="p-4 rounded-xl bg-slate-900/60 border border-slate-800">
               <div className="font-mono text-2xl sm:text-3xl font-bold text-indigo-400">€500k</div>
-              <div className="text-xs font-mono text-slate-400 mt-1">Offer (YSR Munich)</div>
+              <div className="text-xs font-mono text-slate-400 mt-1">Offer (Munich VC)</div>
             </div>
             <div className="p-4 rounded-xl bg-slate-900/60 border border-slate-800">
               <div className="font-mono text-2xl sm:text-3xl font-bold text-purple-400">3x</div>
@@ -148,7 +148,7 @@ export default function App() {
                 FytlY: 99k LOC Production Mobile Platform
               </h2>
               <p className="text-slate-400 max-w-2xl mt-2 text-base">
-                Architected from zero to 99,000 lines of rigorous React Native code. Secured €500,000 conditional venture offer from YSR Capital (Munich). Built with strict defensive architectural boundaries.
+                Architected from zero to 99,000 lines of rigorous React Native code. Secured €500,000 conditional venture seed term sheet from a Munich VC firm. Built with strict defensive architectural boundaries.
               </p>
             </div>
             <div className="flex items-center gap-2 font-mono text-xs text-slate-400 bg-slate-900/80 px-4 py-2 rounded-lg border border-slate-800 self-start lg:self-auto">
