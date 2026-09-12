@@ -350,10 +350,10 @@ export default function App() {
                     <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" /> OffscreenCanvas Web Worker (0% UI Lag)
                   </div>
                   <div className="flex items-center gap-2">
-                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" /> Keplerian Solar System & 5 Geometries
+                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" /> Quantum Anomaly & Wormhole Transit
                   </div>
                   <div className="flex items-center gap-2">
-                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" /> Additive Multi-Spectral Radiance
+                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" /> Keplerian Orbits & 5 Celestial Forms
                   </div>
                 </div>
               </div>
