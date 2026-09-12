@@ -323,11 +323,16 @@ export default function App() {
             <div className="p-6 rounded-2xl bg-gradient-to-b from-slate-900/80 to-slate-950/80 border border-slate-800 flex flex-col justify-between">
               <div>
                 <div className="flex items-center justify-between mb-4">
-                  <span className="font-mono text-xs text-emerald-400 bg-emerald-950/60 px-2.5 py-1 rounded border border-emerald-500/30">
-                    Canvas 2D API
-                  </span>
+                  <div className="flex items-center gap-2">
+                    <span className="font-mono text-xs text-emerald-400 bg-emerald-950/60 px-2.5 py-1 rounded border border-emerald-500/30">
+                      Canvas 2D API
+                    </span>
+                    <span className="flex items-center gap-1 font-mono text-[10px] text-emerald-300 bg-emerald-950/40 px-2 py-0.5 rounded border border-emerald-500/20">
+                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" /> LIVE
+                    </span>
+                  </div>
                   <a
-                    href="https://github.com/shikharthakur2404/sternstaub"
+                    href="https://shikharthakur2404.github.io/sternstaub/"
                     target="_blank"
                     rel="noreferrer"
                     className="text-slate-400 hover:text-white transition-colors"
@@ -335,30 +340,40 @@ export default function App() {
                     <ExternalLink className="w-4 h-4" />
                   </a>
                 </div>
-                <h3 className="text-xl font-bold text-white mb-2 font-mono">sternstaub</h3>
+                <h3 className="text-xl font-bold text-white mb-2 font-mono">sternstaub ✦</h3>
                 <p className="text-sm text-slate-400 leading-relaxed mb-6">
-                  Zero external 3D dependencies. High-performance browser rendering of 1,800 particles with additive blending (<code className="text-emerald-300 font-mono text-xs">lighter</code>) and parametric silhouette distribution at 60 FPS.
+                  Zero external 3D dependencies. Multi-spectral sprite cache running on an isolated OffscreenCanvas Web Worker with 5 morphing celestial geometries (Astral, Keplerian Solar System, Singularity, Galaxy, Torus) at locked 60+ FPS.
                 </p>
                 <div className="space-y-2 text-xs font-mono text-slate-400 mb-6">
                   <div className="flex items-center gap-2">
-                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" /> Pure HTML5 Canvas 2D
+                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" /> OffscreenCanvas Web Worker (0% UI Lag)
                   </div>
                   <div className="flex items-center gap-2">
-                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" /> Additive Optical Glow
+                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" /> Keplerian Solar System & 5 Geometries
                   </div>
                   <div className="flex items-center gap-2">
-                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" /> JSON Preset Engine
+                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" /> Additive Multi-Spectral Radiance
                   </div>
                 </div>
               </div>
-              <a
-                href="https://github.com/shikharthakur2404/sternstaub"
-                target="_blank"
-                rel="noreferrer"
-                className="w-full py-2.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-center font-mono text-xs text-slate-200 transition-colors flex items-center justify-center gap-2"
-              >
-                <GithubIcon className="w-3.5 h-3.5" /> View sternstaub Repo
-              </a>
+              <div className="grid grid-cols-2 gap-2">
+                <a
+                  href="https://shikharthakur2404.github.io/sternstaub/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="w-full py-2.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-center font-mono text-xs font-medium text-white transition-colors flex items-center justify-center gap-1.5 shadow-lg shadow-emerald-950/50"
+                >
+                  <ExternalLink className="w-3.5 h-3.5" /> Launch Live
+                </a>
+                <a
+                  href="https://github.com/shikharthakur2404/sternstaub"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="w-full py-2.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-center font-mono text-xs text-slate-200 transition-colors flex items-center justify-center gap-1.5"
+                >
+                  <GithubIcon className="w-3.5 h-3.5" /> Repo
+                </a>
+              </div>
             </div>
 
             {/* Nebelkern */}
