@@ -340,7 +340,8 @@ export default function App() {
                     <ExternalLink className="w-4 h-4" />
                   </a>
                 </div>
-                <h3 className="text-xl font-bold text-white mb-2 font-mono">sternstaub ✦</h3>
+                <h3 className="text-xl font-bold text-white mb-1 font-mono">Sternstaub (Stardust) ✦</h3>
+                <p className="text-xs text-emerald-400/90 font-mono mb-3">Interactive Celestial Particle Engine</p>
                 <p className="text-sm text-slate-400 leading-relaxed mb-6">
                   Zero external 3D dependencies. Multi-spectral sprite cache running on an isolated OffscreenCanvas Web Worker with 5 morphing celestial geometries (Astral, Keplerian Solar System, Singularity, Galaxy, Torus) at locked 60+ FPS.
                 </p>
