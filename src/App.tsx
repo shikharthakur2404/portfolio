@@ -272,16 +272,31 @@ export default function App() {
           {/* Paper Download & Citation HUD */}
           <div className="mt-8 p-6 rounded-2xl bg-indigo-950/20 border border-indigo-500/20 flex flex-col sm:flex-row items-center justify-between gap-4">
             <div>
-              <div className="text-white font-bold text-sm">Full Working Paper (Uncropped Preprint)</div>
-              <div className="text-xs text-slate-400 font-mono mt-1">Includes 99k LOC FytlY case telemetry, commit distributions & Appendices A–D</div>
+              <div className="flex items-center gap-2 mb-1">
+                <span className="text-white font-bold text-sm">Full Working Paper (Uncropped Preprint)</span>
+                <span className="px-2 py-0.5 rounded bg-emerald-950 border border-emerald-500/30 text-emerald-400 font-mono text-[10px]">
+                  DOI Minted
+                </span>
+              </div>
+              <div className="text-xs text-slate-400 font-mono">
+                Indexed in OpenAIRE & CERN Zenodo · DOI: <a href="https://doi.org/10.5281/zenodo.22725907" target="_blank" rel="noreferrer" className="text-indigo-300 hover:underline">10.5281/zenodo.22725907</a>
+              </div>
             </div>
-            <div className="flex gap-3 w-full sm:w-auto">
+            <div className="flex flex-wrap gap-3 w-full sm:w-auto">
+              <a
+                href="https://doi.org/10.5281/zenodo.22725907"
+                target="_blank"
+                rel="noreferrer"
+                className="px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 font-mono text-xs font-semibold transition-all border border-slate-700 flex items-center justify-center gap-2"
+              >
+                <ExternalLink className="w-3.5 h-3.5" /> View on Zenodo
+              </a>
               <a
                 href="/The_Productivity_Paradox_of_Generative_AI_in_Software_Development.pdf"
                 download="The_Productivity_Paradox_of_Generative_AI_in_Software_Development.pdf"
-                className="flex-1 sm:flex-initial px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-mono text-xs font-semibold transition-all shadow-lg shadow-indigo-600/20 flex items-center justify-center gap-2"
+                className="px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-mono text-xs font-semibold transition-all shadow-lg shadow-indigo-600/20 flex items-center justify-center gap-2"
               >
-                <BookOpen className="w-4 h-4" /> Download PDF (871 KB)
+                <BookOpen className="w-4 h-4" /> Download PDF
               </a>
             </div>
           </div>
