@@ -218,7 +218,7 @@ export default function App() {
             </div>
             <div className="flex gap-4">
               <a
-                href="mailto:shikharthakur2404@gmail.com?subject=FytlY%20Walkthrough%20Request"
+                href="mailto:shikhar3924@gmail.com?subject=FytlY%20Walkthrough%20Request"
                 className="px-5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-mono text-xs transition-colors flex items-center gap-2 border border-slate-700"
               >
                 <Mail className="w-3.5 h-3.5" /> Request Full Demo Video
@@ -489,8 +489,8 @@ export default function App() {
             <a href="https://linkedin.com/in/shikhar2404" target="_blank" rel="noreferrer" className="hover:text-cyan-400 transition-colors">
               LinkedIn
             </a>
-            <a href="mailto:shikharthakur2404@gmail.com" className="hover:text-cyan-400 transition-colors">
-              shikharthakur2404@gmail.com
+            <a href="mailto:shikhar3924@gmail.com" className="hover:text-cyan-400 transition-colors">
+              shikhar3924@gmail.com
             </a>
           </div>
         </footer>
