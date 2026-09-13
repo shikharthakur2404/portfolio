@@ -418,6 +418,11 @@ export default function App() {
                     <CheckCircle2 className="w-3.5 h-3.5 text-cyan-400" /> Velocity Persistence Trails
                   </div>
                 </div>
+                
+                <div className="mb-6 flex flex-col gap-3 rounded-lg border border-slate-800/50 p-2 bg-slate-900/50">
+                  <img src="/assets/nebelkern/hero.png" alt="Nebelkern Particle Simulation" className="w-full h-auto object-cover rounded shadow-lg" />
+                  <video src="/assets/nebelkern/demo.mp4" controls muted loop playsInline className="w-full h-auto rounded shadow-lg" />
+                </div>
               </div>
               <a
                 href="https://github.com/shikharthakur2404/nebelkern"
