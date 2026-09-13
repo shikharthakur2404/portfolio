@@ -325,7 +325,7 @@ export default function App() {
                 <div className="flex items-center justify-between mb-4">
                   <div className="flex items-center gap-2">
                     <span className="font-mono text-xs text-emerald-400 bg-emerald-950/60 px-2.5 py-1 rounded border border-emerald-500/30">
-                      Canvas 2D API
+                      WebGL / Three.js
                     </span>
                     <span className="flex items-center gap-1 font-mono text-[10px] text-emerald-300 bg-emerald-950/40 px-2 py-0.5 rounded border border-emerald-500/20">
                       <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" /> LIVE
@@ -341,20 +341,30 @@ export default function App() {
                   </a>
                 </div>
                 <h3 className="text-xl font-bold text-white mb-1 font-mono">Sternstaub (Stardust) ✦</h3>
-                <p className="text-xs text-emerald-400/90 font-mono mb-3">Interactive Celestial Particle Engine</p>
+                <p className="text-xs text-emerald-400/90 font-mono mb-3">Multi-Cosmic 3D Observatory</p>
                 <p className="text-sm text-slate-400 leading-relaxed mb-6">
-                  Zero external 3D dependencies. Multi-spectral sprite cache running on an isolated OffscreenCanvas Web Worker with 5 morphing celestial geometries (Astral, Keplerian Solar System, Singularity, Galaxy, Torus) at locked 60+ FPS.
+                  High-performance 3D astrophysics simulator featuring numerical N-body Keplerian orbits, multi-spectral planetary rendering, dynamic volumetric black holes, and seamless macro-scale realm transitions across the cosmos.
                 </p>
                 <div className="space-y-2 text-xs font-mono text-slate-400 mb-6">
                   <div className="flex items-center gap-2">
-                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" /> OffscreenCanvas Web Worker (0% UI Lag)
+                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" /> Three.js & Custom Shaders
                   </div>
                   <div className="flex items-center gap-2">
-                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" /> Quantum Anomaly & Wormhole Transit
+                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" /> Seamless Multi-Realm Camera
                   </div>
                   <div className="flex items-center gap-2">
-                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" /> Keplerian Orbits & 5 Celestial Forms
+                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" /> Accurate Orbital Ephemerides
                   </div>
+                </div>
+                
+                <div className="mb-6 flex overflow-x-auto gap-3 pb-2 snap-x rounded-lg hide-scrollbar border border-slate-800/50 p-2 bg-slate-900/50">
+                  <img src="/assets/sternstaub/system.png" alt="Sol System view" className="h-32 w-auto object-cover rounded shadow-lg snap-center" />
+                  <img src="/assets/sternstaub/earth.png" alt="Earth terminator view" className="h-32 w-auto object-cover rounded shadow-lg snap-center" />
+                  <img src="/assets/sternstaub/torus.png" alt="Olympus Stanford Torus" className="h-32 w-auto object-cover rounded shadow-lg snap-center" />
+                  <img src="/assets/sternstaub/torus_silhouette.png" alt="Stanford Torus silhouette" className="h-32 w-auto object-cover rounded shadow-lg snap-center" />
+                  <img src="/assets/sternstaub/mars.png" alt="Mars view" className="h-32 w-auto object-cover rounded shadow-lg snap-center" />
+                  <img src="/assets/sternstaub/jupiter.png" alt="Jupiter view" className="h-32 w-auto object-cover rounded shadow-lg snap-center" />
+                  <img src="/assets/sternstaub/andromeda.png" alt="Andromeda Volumetric Core" className="h-32 w-auto object-cover rounded shadow-lg snap-center" />
                 </div>
               </div>
               <div className="grid grid-cols-2 gap-2">
