@@ -238,27 +238,36 @@ export default function App() {
 
         {/* ── Section 2: Emergency Mesh Nürnberg Flagship Offline Systems ── */}
         <section id="emergency-mesh" className="mb-28 scroll-mt-24">
-          <div className="flex items-center gap-3 mb-4">
-            <div className="p-2 rounded-lg bg-rose-500/10 border border-rose-500/20 text-rose-400">
-              <Radio className="w-5 h-5" />
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-6 mb-8">
+            <div className="flex items-start sm:items-center gap-5">
+              <img
+                src="/assets/emergency-mesh/icon.png"
+                alt="Emergency Mesh App Icon"
+                className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl shadow-xl shadow-rose-950/40 border border-rose-500/30 flex-shrink-0"
+              />
+              <div>
+                <div className="flex items-center gap-2 mb-1.5">
+                  <span className="p-1 rounded bg-rose-500/10 border border-rose-500/20 text-rose-400 font-mono text-[10px] tracking-widest uppercase">
+                    P2P Mesh
+                  </span>
+                  <span className="font-mono text-xs text-rose-400 tracking-wider uppercase font-semibold">
+                    Civilian Disaster Network
+                  </span>
+                </div>
+                <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight">
+                  Emergency Mesh Nürnberg
+                </h2>
+              </div>
             </div>
-            <span className="font-mono text-xs text-rose-400 tracking-widest uppercase">Decentralized Mesh Architecture</span>
-          </div>
-
-          <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-8">
-            <div>
-              <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight">
-                Emergency Mesh Nürnberg: Zero-Internet Disaster Network
-              </h2>
-              <p className="text-slate-400 max-w-3xl mt-2 text-base">
-                Autonomous peer-to-peer ad-hoc communication network engineered for civilian disaster coordination in Nuremberg during total infrastructure failure (power grid blackout, cellular collapse, ISP blackout). Features dual-mode UI, DTN store-and-forward routing, and end-to-end cryptography.
-              </p>
-            </div>
-            <div className="flex items-center gap-2 font-mono text-xs text-rose-300 bg-rose-950/60 px-4 py-2 rounded-lg border border-rose-500/30 self-start lg:self-auto">
+            <div className="flex items-center gap-2 font-mono text-xs text-rose-300 bg-rose-950/60 px-4 py-2 rounded-lg border border-rose-500/30 self-start sm:self-center">
               <span className="w-2 h-2 rounded-full bg-rose-400 animate-pulse" />
               v1.0.0 Live on Android
             </div>
           </div>
+
+          <p className="text-slate-400 max-w-3xl text-base leading-relaxed mb-8">
+            Autonomous peer-to-peer ad-hoc communication network engineered for civilian disaster coordination in Nuremberg during total infrastructure failure (power grid blackout, cellular collapse, ISP blackout). Features dual-mode UI (Bürgernetz / NINA vs. Taktisch Monospace), DTN store-and-forward routing, and end-to-end cryptography.
+          </p>
 
           {/* Architectural Guardrails Grid */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
