@@ -9,6 +9,7 @@ import {
   CheckCircle2,
   Radio,
   Download,
+  Zap,
 } from 'lucide-react'
 
 function GithubIcon({ className = "w-4 h-4" }: { className?: string }) {
@@ -52,8 +53,9 @@ export default function App() {
           <nav className="flex items-center gap-6 text-sm font-mono text-slate-400">
             <a href="#fytly" className="hover:text-cyan-400 transition-colors hidden sm:block">FytlY</a>
             <a href="#emergency-mesh" className="hover:text-rose-400 transition-colors hidden sm:block">Emergency Mesh</a>
-            <a href="#research" className="hover:text-cyan-400 transition-colors hidden sm:block">Research</a>
-            <a href="#particle-triad" className="hover:text-cyan-400 transition-colors hidden md:block">Graphics</a>
+            <a href="#research" className="hover:text-indigo-400 transition-colors hidden sm:block">Research</a>
+            <a href="#glow-comments" className="hover:text-emerald-400 transition-colors hidden sm:block">Glow Comments</a>
+            <a href="#particle-triad" className="hover:text-purple-400 transition-colors hidden md:block">Graphics</a>
             <div className="h-4 w-px bg-slate-800 hidden sm:block" />
             <div className="flex items-center gap-3">
               <a
@@ -455,7 +457,180 @@ export default function App() {
           </div>
         </section>
 
-        {/* ── Section 3: Generative Visual Computing Triad ── */}
+        {/* ── Section 4: Developer Tooling & Verification Systems ── */}
+        <section id="glow-comments" className="mb-28 scroll-mt-24">
+          <div className="flex items-center gap-3 mb-4">
+            <div className="p-2 rounded-lg bg-emerald-500/10 border border-emerald-500/20 text-emerald-400">
+              <Zap className="w-5 h-5" />
+            </div>
+            <span className="font-mono text-xs text-emerald-400 tracking-widest uppercase">Developer Tooling & Systems</span>
+          </div>
+
+          <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-8">
+            <div>
+              <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight mb-4">
+                Glow Comments ⚡
+              </h2>
+              <p className="text-slate-400 max-w-2xl text-base">
+                Published code editor extension for VS Code, Cursor, and Antigravity IDE. Engineered to pierce "code blindness" in the vibe coding era through real-time optical telemetry, dynamic hex parsing, and luminous ambient aura backgrounds.
+              </p>
+            </div>
+            <div className="flex flex-wrap items-center gap-2 font-mono text-xs">
+              <span className="px-3 py-1 rounded-full bg-emerald-950/60 border border-emerald-500/30 text-emerald-300 flex items-center gap-1.5">
+                <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                Live on VS Marketplace & Open VSX
+              </span>
+              <span className="px-3 py-1 rounded-full bg-slate-900 border border-slate-800 text-slate-400">
+                TypeScript + esbuild
+              </span>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
+            {/* Visual Card / Interactive Preview */}
+            <div className="lg:col-span-7 p-6 sm:p-8 rounded-3xl bg-gradient-to-b from-slate-900/90 to-slate-950/90 border border-slate-800 flex flex-col justify-between">
+              <div>
+                <div className="flex items-center gap-4 mb-6">
+                  <img
+                    src="/assets/glow-comments/icon.png"
+                    alt="Glow Comments Icon"
+                    className="w-16 h-16 rounded-2xl shadow-xl shadow-cyan-500/10 border border-slate-800"
+                  />
+                  <div>
+                    <div className="font-mono text-xs text-cyan-400 mb-1">OPTICAL TELEMETRY HUD // v0.1.0</div>
+                    <h3 className="text-xl font-bold text-white">Luminous Visual Verification</h3>
+                    <p className="text-xs text-slate-400 font-mono">Zero-Dependency Bundle · 69 KB VSIX · 10,000+ LOC Optimized</p>
+                  </div>
+                </div>
+
+                {/* Simulated Editor HUD */}
+                <div className="rounded-2xl bg-[#030712] border border-slate-800/80 p-5 font-mono text-xs space-y-3 mb-6 shadow-2xl">
+                  <div className="flex items-center justify-between pb-2 border-b border-slate-800/60 text-slate-500 text-[11px]">
+                    <span className="flex items-center gap-1.5">
+                      <span className="w-2.5 h-2.5 rounded-full bg-rose-500/60" />
+                      <span className="w-2.5 h-2.5 rounded-full bg-amber-500/60" />
+                      <span className="w-2.5 h-2.5 rounded-full bg-emerald-500/60" />
+                      <span className="ml-2 text-slate-400">verification_hud.ts</span>
+                    </span>
+                    <span className="text-emerald-400">LIVE RENDER</span>
+                  </div>
+
+                  <div className="p-2 rounded bg-cyan-950/30 border border-cyan-500/40 text-cyan-300 shadow-[0_0_15px_rgba(6,182,212,0.15)]">
+                    <span className="text-cyan-400 font-bold">// [#00F0FF]</span> Cyber Cyan: System architecture contract verified
+                  </div>
+                  <div className="p-2 rounded bg-rose-950/30 border border-rose-500/40 text-rose-300 shadow-[0_0_15px_rgba(244,63,94,0.15)]">
+                    <span className="text-rose-400 font-bold">// ! [AI:AUDIT]</span> Security alert: External webhook unvalidated payload
+                  </div>
+                  <div className="p-2 rounded bg-emerald-950/30 border border-emerald-500/40 text-emerald-300 shadow-[0_0_15px_rgba(16,185,129,0.15)]">
+                    <span className="text-emerald-400 font-bold">// [#lime]</span> Matrix: Low-overhead cached TextEditorDecorationType
+                  </div>
+                  <div className="p-2 rounded bg-amber-950/30 border border-amber-500/40 text-amber-300 shadow-[0_0_15px_rgba(245,158,11,0.15)]">
+                    <span className="text-amber-400 font-bold">// TODO:</span> Hotfix memory leak before release deployment
+                  </div>
+                </div>
+
+                <div className="space-y-2.5 text-xs font-mono text-slate-300 mb-6">
+                  <div className="flex items-center gap-2">
+                    <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+                    <span>Dynamic Arbitrary Hex Parsing: <code className="text-cyan-300">// [#FF007F]</code> or <code className="text-cyan-300"># [#00FFA3]</code></span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+                    <span>Zero-Lag Decoration Cache: debounced AST/regex scanning without thread blocking</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+                    <span>Cross-Editor Distribution: Visual Studio Marketplace + Open VSX Registry</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Install Command & Action Buttons */}
+              <div>
+                <div className="p-3 rounded-xl bg-slate-950 border border-slate-800 font-mono text-xs text-slate-300 flex items-center justify-between gap-2 mb-4">
+                  <span className="text-slate-500">$</span>
+                  <code className="text-cyan-300 select-all">code --install-extension shikharthakur.glow-comments</code>
+                  <span className="text-[10px] text-slate-500 uppercase">CLI INSTALL</span>
+                </div>
+
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
+                  <a
+                    href="https://marketplace.visualstudio.com/items?itemName=shikharthakur.glow-comments"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="py-2.5 px-3 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-center font-mono text-xs font-semibold text-white transition-colors flex items-center justify-center gap-1.5 shadow-lg shadow-indigo-950/50"
+                  >
+                    <ExternalLink className="w-3.5 h-3.5" /> VS Marketplace
+                  </a>
+                  <a
+                    href="https://open-vsx.org/extension/shikharthakur/glow-comments"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="py-2.5 px-3 rounded-xl bg-purple-600 hover:bg-purple-500 text-center font-mono text-xs font-semibold text-white transition-colors flex items-center justify-center gap-1.5 shadow-lg shadow-purple-950/50"
+                  >
+                    <ExternalLink className="w-3.5 h-3.5" /> Open VSX
+                  </a>
+                  <a
+                    href="https://github.com/shikharthakur2404/glow-comments"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="py-2.5 px-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-center font-mono text-xs text-slate-200 transition-colors flex items-center justify-center gap-1.5 border border-slate-700"
+                  >
+                    <GithubIcon className="w-3.5 h-3.5" /> GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Architecture & Cognitive Verification Tax Card */}
+            <div className="lg:col-span-5 flex flex-col justify-between gap-6">
+              <div className="p-6 sm:p-8 rounded-3xl bg-slate-900/40 border border-slate-800 h-full flex flex-col justify-between">
+                <div>
+                  <div className="text-emerald-400 font-mono text-xs mb-2">// THE VIBE CODING RADAR</div>
+                  <h3 className="text-xl font-bold text-white mb-3">Tackling the Verification Tax</h3>
+                  <p className="text-sm text-slate-400 leading-relaxed mb-6">
+                    In the era of autonomous AI generators, syntax highlighting is no longer sufficient. High-velocity generation causes "code blindness"—where silent catches, loose casts, and security leaks blend into syntax.
+                  </p>
+                  
+                  <div className="space-y-4">
+                    <div className="p-4 rounded-xl bg-slate-950/80 border border-slate-800">
+                      <div className="text-xs font-bold text-rose-400 mb-1 flex items-center gap-1.5">
+                        <span className="w-1.5 h-1.5 rounded-full bg-rose-400" />
+                        AI Taint & Hazard Isolation
+                      </div>
+                      <p className="text-xs text-slate-400 leading-relaxed">
+                        Forces developer eyes directly onto unverified mutations, silent error suppressions, and critical API interfaces via custom luminous CSS-like text decorations.
+                      </p>
+                    </div>
+
+                    <div className="p-4 rounded-xl bg-slate-950/80 border border-slate-800">
+                      <div className="text-xs font-bold text-cyan-400 mb-1 flex items-center gap-1.5">
+                        <span className="w-1.5 h-1.5 rounded-full bg-cyan-400" />
+                        Zero-Overhead esbuild Pipeline
+                      </div>
+                      <p className="text-xs text-slate-400 leading-relaxed">
+                        Compiles in 16ms into an isolated CJS bundle with decoupled configuration listeners, ensuring zero impact on editor frame rates.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="mt-6 pt-6 border-t border-slate-800/80">
+                  <a
+                    href="https://github.com/shikharthakur2404/glow-comments/blob/main/AI_VIBE_CODING_VISION.md"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center gap-2 text-xs font-mono text-emerald-400 hover:text-emerald-300 transition-colors"
+                  >
+                    Read Architectural Vision Whitepaper <ChevronRight className="w-3.5 h-3.5" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ── Section 5: Generative Visual Computing Triad ── */}
         <section id="particle-triad" className="mb-28 scroll-mt-24">
           <div className="flex items-center gap-3 mb-4">
             <div className="p-2 rounded-lg bg-purple-500/10 border border-purple-500/20 text-purple-400">
