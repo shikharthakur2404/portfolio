@@ -529,6 +529,15 @@ export default function App() {
                   </div>
                 </div>
 
+                {/* Real Editor Screenshot Preview */}
+                <div className="mb-6 rounded-2xl overflow-hidden border border-slate-800 shadow-2xl">
+                  <img
+                    src="/assets/glow-comments/demo.png"
+                    alt="Glow Comments in Cursor / VS Code"
+                    className="w-full h-auto object-cover"
+                  />
+                </div>
+
                 <div className="space-y-2.5 text-xs font-mono text-slate-300 mb-6">
                   <div className="flex items-center gap-2">
                     <CheckCircle2 className="w-4 h-4 text-emerald-400" />
