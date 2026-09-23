@@ -538,7 +538,7 @@ export default function App() {
                       className="w-full h-auto object-cover"
                     />
                     <div className="absolute bottom-2 left-2 px-2 py-0.5 rounded bg-slate-950/80 border border-slate-700/80 text-[10px] font-mono text-cyan-300">
-                      Audit Lens Mode (Alt+Cmd+G)
+                      Audit Lens Mode (Cmd+K Cmd+G)
                     </div>
                   </div>
                   <div className="rounded-xl overflow-hidden border border-slate-800 shadow-xl relative group">
@@ -556,7 +556,7 @@ export default function App() {
                 <div className="space-y-2.5 text-xs font-mono text-slate-300 mb-6">
                   <div className="flex items-center gap-2">
                     <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
-                    <span>Risk-Scoped Audit Lens (<code className="text-cyan-300">Alt+Cmd+G</code>): 22% opacity dimming isolating compiler diagnostics & LLM blindspots</span>
+                    <span>Risk-Scoped Audit Lens (<code className="text-cyan-300">Cmd+K Cmd+G</code>): 22% opacity dimming isolating compiler diagnostics & LLM blindspots</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
