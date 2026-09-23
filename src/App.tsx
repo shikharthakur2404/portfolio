@@ -7,6 +7,7 @@ import { EmergencyMeshSection } from './components/sections/EmergencyMeshSection
 import { ResearchSection } from './components/sections/ResearchSection'
 import { CoverLetterSection } from './components/sections/CoverLetterSection'
 import { GlowCommentsSection } from './components/sections/GlowCommentsSection'
+import { FillBotSection } from './components/sections/FillBotSection'
 import { GraphicsSection } from './components/sections/GraphicsSection'
 import { CapabilitiesSection } from './components/sections/CapabilitiesSection'
 
@@ -30,6 +31,7 @@ export default function App() {
           <EmergencyMeshSection />
           <ResearchSection />
           <CoverLetterSection />
+          <FillBotSection />
           <GlowCommentsSection />
           <GraphicsSection />
           <CapabilitiesSection />

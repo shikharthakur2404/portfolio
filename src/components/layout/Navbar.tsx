@@ -38,6 +38,9 @@ export const Navbar: React.FC = () => {
           <a href="#cover-letter-printer" className="hover:text-amber-600 dark:hover:text-amber-400 transition-colors hidden sm:block">
             Pipeline
           </a>
+          <a href="#fillbot" className="hover:text-sky-600 dark:hover:text-sky-400 transition-colors hidden sm:block">
+            FillBot
+          </a>
           <a href="#glow-comments" className="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors hidden sm:block">
             Glow Comments
           </a>
