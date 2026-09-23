@@ -497,9 +497,9 @@ export default function App() {
                     className="w-16 h-16 rounded-2xl shadow-xl shadow-cyan-500/10 border border-slate-800"
                   />
                   <div>
-                    <div className="font-mono text-xs text-cyan-400 mb-1">OPTICAL TELEMETRY HUD // v0.1.0</div>
+                    <div className="font-mono text-xs text-cyan-400 mb-1">OPTICAL TELEMETRY HUD // v0.2.1</div>
                     <h3 className="text-xl font-bold text-white">Luminous Visual Verification</h3>
-                    <p className="text-xs text-slate-400 font-mono">Zero-Dependency Bundle · 69 KB VSIX · 10,000+ LOC Optimized</p>
+                    <p className="text-xs text-slate-400 font-mono">Zero-Dependency Bundle · 72 KB VSIX · Dual-Spectrum Chroma</p>
                   </div>
                 </div>
 
@@ -512,44 +512,59 @@ export default function App() {
                       <span className="w-2.5 h-2.5 rounded-full bg-emerald-500/60" />
                       <span className="ml-2 text-slate-400">verification_hud.ts</span>
                     </span>
-                    <span className="text-emerald-400">LIVE RENDER</span>
+                    <span className="text-emerald-400 flex items-center gap-1.5">
+                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+                      AUDIT LENS: ON (2 FLAGGED)
+                    </span>
                   </div>
 
-                  <div className="p-2 rounded bg-cyan-950/30 border border-cyan-500/40 text-cyan-300 shadow-[0_0_15px_rgba(6,182,212,0.15)]">
-                    <span className="text-cyan-400 font-bold">// [#00F0FF]</span> Cyber Cyan: System architecture contract verified
+                  <div className="p-2.5 rounded bg-rose-950/40 border border-rose-500/50 text-rose-300 shadow-[0_0_20px_rgba(244,63,94,0.2)]">
+                    <span className="text-rose-400 font-bold">// ! [SECURITY]</span> Verify webhook signature before parsing payload
                   </div>
-                  <div className="p-2 rounded bg-rose-950/30 border border-rose-500/40 text-rose-300 shadow-[0_0_15px_rgba(244,63,94,0.15)]">
-                    <span className="text-rose-400 font-bold">// ! [AI:AUDIT]</span> Security alert: External webhook unvalidated payload
+                  <div className="p-2.5 rounded bg-amber-950/40 border border-amber-500/50 text-amber-300 shadow-[0_0_20px_rgba(245,158,11,0.2)]">
+                    <span className="text-amber-400 font-bold">// TODO:</span> Add Redis cache fallback for session persistence
                   </div>
-                  <div className="p-2 rounded bg-emerald-950/30 border border-emerald-500/40 text-emerald-300 shadow-[0_0_15px_rgba(16,185,129,0.15)]">
-                    <span className="text-emerald-400 font-bold">// [#lime]</span> Matrix: Low-overhead cached TextEditorDecorationType
-                  </div>
-                  <div className="p-2 rounded bg-amber-950/30 border border-amber-500/40 text-amber-300 shadow-[0_0_15px_rgba(245,158,11,0.15)]">
-                    <span className="text-amber-400 font-bold">// TODO:</span> Hotfix memory leak before release deployment
+                  <div className="p-2 text-slate-600 italic border border-transparent">
+                    // (98% of safe boilerplate code dimmed to 22% opacity to eliminate cognitive verification tax)
                   </div>
                 </div>
 
-                {/* Real Editor Screenshot Preview */}
-                <div className="mb-6 rounded-2xl overflow-hidden border border-slate-800 shadow-2xl">
-                  <img
-                    src="/assets/glow-comments/demo.png"
-                    alt="Glow Comments in Cursor / VS Code"
-                    className="w-full h-auto object-cover"
-                  />
+                {/* Real Editor Screenshot Previews */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">
+                  <div className="rounded-xl overflow-hidden border border-slate-800 shadow-xl relative group">
+                    <img
+                      src="/assets/glow-comments/audit-lens.jpg"
+                      alt="Audit Lens HUD in action"
+                      className="w-full h-auto object-cover"
+                    />
+                    <div className="absolute bottom-2 left-2 px-2 py-0.5 rounded bg-slate-950/80 border border-slate-700/80 text-[10px] font-mono text-cyan-300">
+                      Audit Lens Mode (Alt+Cmd+G)
+                    </div>
+                  </div>
+                  <div className="rounded-xl overflow-hidden border border-slate-800 shadow-xl relative group">
+                    <img
+                      src="/assets/glow-comments/dual-spectrum.jpg"
+                      alt="Dual-Spectrum Chroma (Dark & Light Themes)"
+                      className="w-full h-auto object-cover"
+                    />
+                    <div className="absolute bottom-2 left-2 px-2 py-0.5 rounded bg-slate-950/80 border border-slate-700/80 text-[10px] font-mono text-emerald-300">
+                      Dual-Spectrum (Dark vs Light)
+                    </div>
+                  </div>
                 </div>
 
                 <div className="space-y-2.5 text-xs font-mono text-slate-300 mb-6">
                   <div className="flex items-center gap-2">
-                    <CheckCircle2 className="w-4 h-4 text-emerald-400" />
-                    <span>Dynamic Arbitrary Hex Parsing: <code className="text-cyan-300">// [#FF007F]</code> or <code className="text-cyan-300"># [#00FFA3]</code></span>
+                    <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
+                    <span>Risk-Scoped Audit Lens (<code className="text-cyan-300">Alt+Cmd+G</code>): 22% opacity dimming isolating compiler diagnostics & LLM blindspots</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <CheckCircle2 className="w-4 h-4 text-emerald-400" />
-                    <span>Zero-Lag Decoration Cache: debounced AST/regex scanning without thread blocking</span>
+                    <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
+                    <span>Dual-Spectrum Chroma Engine: Radiant neon in dark themes, deep jewel inks in light themes (WCAG AAA)</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <CheckCircle2 className="w-4 h-4 text-emerald-400" />
-                    <span>Cross-Editor Distribution: Visual Studio Marketplace + Open VSX Registry</span>
+                    <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
+                    <span>AI Agent Directives Protocol: One-click rule generation for Claude Code, Cursor, and Gemini CLI</span>
                   </div>
                 </div>
               </div>
