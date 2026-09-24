@@ -6,7 +6,7 @@ Personal portfolio showcasing mobile architectures, academic AI research, and re
 
 ## Featured Work
 
-1. **FytlY** — 99k LOC Production React Native Architecture (Conditional €500k Offer from YSR Capital Munich).
+1. **FytlY** — 99k LOC Production React Native Architecture (App Store release; investor process with a Munich firm).
 2. **The Productivity Paradox of Generative AI in Software Development** — Academic Seminar Investigation into the Cognitive Verification Tax, Complexity Displacement Thesis, and Session Drift.
 3. **The Cosmic Silhouette Triad**:
    - **sternstaub** — Pure HTML5 Canvas 2D Particle Engine (Zero Dependencies, 60 FPS Additive Glow).

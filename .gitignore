@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Vercel
+.vercel
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -22,3 +25,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Private interview prep (Discord dumps / Q&A — do not publish)
+fytly-discord-timeline.md
+fytly-interview-qa.md
+fytly-interview-spine.md

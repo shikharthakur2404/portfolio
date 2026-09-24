@@ -1,58 +1,59 @@
 import React from 'react'
+import { useLocale } from '../../context/useLocale'
+import type { MessageKey } from '../../i18n/messages'
+import { asset } from '../../lib/asset'
+
+const IELTS_HREF = asset('/Shikhar_Thakur_IELTS.pdf')
+
+const groups: { title: MessageKey; items: MessageKey[] }[] = [
+  {
+    title: 'cap.mobile',
+    items: ['cap.mobile.1', 'cap.mobile.2', 'cap.mobile.3', 'cap.mobile.4'],
+  },
+  {
+    title: 'cap.visual',
+    items: ['cap.visual.1', 'cap.visual.2', 'cap.visual.3', 'cap.visual.4'],
+  },
+  {
+    title: 'cap.systems',
+    items: ['cap.systems.1', 'cap.systems.2', 'cap.systems.3', 'cap.systems.4'],
+  },
+  {
+    title: 'cap.background',
+    items: ['cap.background.1', 'cap.background.2', 'cap.background.3', 'cap.background.4'],
+  },
+]
 
 export const CapabilitiesSection: React.FC = () => {
+  const { t } = useLocale()
+
   return (
-    <section className="mb-28">
-      <div className="p-8 rounded-3xl bg-white dark:bg-slate-900/40 border border-slate-200 dark:border-slate-800 shadow-sm dark:shadow-none transition-colors">
-        <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-6">
-          Core Engineering Capabilities
-        </h3>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 font-mono text-xs">
-          <div>
-            <div className="text-cyan-600 dark:text-cyan-400 font-bold mb-3 uppercase tracking-wider">
-              // Mobile Ecosystem
-            </div>
-            <ul className="space-y-2 text-slate-600 dark:text-slate-300">
-              <li>React Native (0.77+)</li>
-              <li>Offline P2P Mesh / UDP</li>
-              <li>Redux-Saga &amp; Zustand</li>
-              <li>Native Modules &amp; Android SDK</li>
+    <section className="mb-28 border-t border-line pt-12">
+      <h2 className="mb-10 text-ink">{t('cap.title')}</h2>
+      <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
+        {groups.map(group => (
+          <div key={group.title}>
+            <h3 className="mb-3 font-sans text-base font-medium text-faint">{t(group.title)}</h3>
+            <ul className="space-y-2 text-quiet">
+              {group.items.map(item => (
+                <li key={item}>
+                  {item === 'cap.background.3' ? (
+                    <a
+                      href={IELTS_HREF}
+                      download="Shikhar_Thakur_IELTS.pdf"
+                      title={t('cap.ielts.download')}
+                      className="underline decoration-transparent underline-offset-4 transition-colors hover:text-ink hover:decoration-line"
+                    >
+                      {t(item)}
+                    </a>
+                  ) : (
+                    t(item)
+                  )}
+                </li>
+              ))}
             </ul>
           </div>
-          <div>
-            <div className="text-indigo-600 dark:text-indigo-400 font-bold mb-3 uppercase tracking-wider">
-              // Visual Computing
-            </div>
-            <ul className="space-y-2 text-slate-600 dark:text-slate-300">
-              <li>Metal Shading Language (MSL)</li>
-              <li>WebGL2 / Three.js / R3F</li>
-              <li>Postprocessing Pipelines</li>
-              <li>3D Vector Fields / Curl Noise</li>
-            </ul>
-          </div>
-          <div>
-            <div className="text-purple-600 dark:text-purple-400 font-bold mb-3 uppercase tracking-wider">
-              // Systems &amp; Cryptography
-            </div>
-            <ul className="space-y-2 text-slate-600 dark:text-slate-300">
-              <li>AES-256-CBC &amp; HMAC-SHA256</li>
-              <li>DTN Store-and-Forward Relay</li>
-              <li>TypeScript / Swift / Python</li>
-              <li>Cursor Skills Architecture</li>
-            </ul>
-          </div>
-          <div>
-            <div className="text-emerald-600 dark:text-emerald-400 font-bold mb-3 uppercase tracking-wider">
-              // Education &amp; Global
-            </div>
-            <ul className="space-y-2 text-slate-600 dark:text-slate-300">
-              <li>M.Sc. Information Systems (IIS)</li>
-              <li>Nuremberg / Bavaria, Germany</li>
-              <li>English C1 (IELTS Academic)</li>
-              <li>German B1</li>
-            </ul>
-          </div>
-        </div>
+        ))}
       </div>
     </section>
   )

@@ -1,0 +1,163 @@
+/* ==========================================================================
+   PORTFOLIO DESIGN TOKENS
+   Warm paper and charcoal. One ink. No neon domain colors.
+   European editorial palette — readable in an office and in print.
+   ========================================================================== */
+
+:root {
+  --bg-base: #f4f1ea;
+  --bg-panel: #fbf9f4;
+  --bg-panel-solid: #fbf9f4;
+  --bg-subtle: #efeae0;
+  --bg-hover: #e7e0d4;
+
+  --border-subtle: #e0d8ca;
+  --border-strong: #cfc6b6;
+  --border-active: #4f493f;
+
+  /* WCAG AAA on --bg-base */
+  --text-primary: #1a1714;   /* 15.82:1 */
+  --text-secondary: #3f3a33; /* 9.99:1 */
+  --text-muted: #4f493f;     /* 7.90:1 */
+
+  --accent: #1a1714;
+
+  --max-content-width: 72rem;
+  --section-spacing: 7rem;
+  --anchor-offset: 6rem;
+  --header-height: 4rem;
+  --radius-card: 0.5rem;
+  --radius-tile: 0.375rem;
+  --radius-badge: 9999px;
+
+  --shadow-panel: none;
+  --shadow-glow: none;
+
+  /* Shared stops. Every former "domain" hue points here. */
+  --tone-50: #efeae0;
+  --tone-100: #e7e0d4;
+  --tone-200: #e0d8ca;
+  --tone-300: #c8c0b3;
+  --tone-400: #4f493f;
+  --tone-500: #1a1714;
+  --tone-600: #1a1714;
+  --tone-700: #1a1714;
+  --tone-800: #2a2824;
+  --tone-900: #1c1b18;
+  --tone-950: #141311;
+
+  --color-cyan-50: var(--tone-50);
+  --color-cyan-100: var(--tone-100);
+  --color-cyan-200: var(--tone-200);
+  --color-cyan-300: var(--tone-300);
+  --color-cyan-400: var(--tone-400);
+  --color-cyan-500: var(--tone-500);
+  --color-cyan-600: var(--tone-600);
+  --color-cyan-700: var(--tone-700);
+  --color-cyan-800: var(--tone-800);
+  --color-cyan-900: var(--tone-900);
+  --color-cyan-950: var(--tone-950);
+
+  --color-rose-50: var(--tone-50);
+  --color-rose-100: var(--tone-100);
+  --color-rose-200: var(--tone-200);
+  --color-rose-300: var(--tone-300);
+  --color-rose-400: var(--tone-400);
+  --color-rose-500: var(--tone-500);
+  --color-rose-600: var(--tone-600);
+  --color-rose-700: var(--tone-700);
+  --color-rose-800: var(--tone-800);
+  --color-rose-900: var(--tone-900);
+  --color-rose-950: var(--tone-950);
+
+  --color-indigo-50: var(--tone-50);
+  --color-indigo-100: var(--tone-100);
+  --color-indigo-200: var(--tone-200);
+  --color-indigo-300: var(--tone-300);
+  --color-indigo-400: var(--tone-400);
+  --color-indigo-500: var(--tone-500);
+  --color-indigo-600: var(--tone-600);
+  --color-indigo-700: var(--tone-700);
+  --color-indigo-800: var(--tone-800);
+  --color-indigo-900: var(--tone-900);
+  --color-indigo-950: var(--tone-950);
+
+  --color-purple-50: var(--tone-50);
+  --color-purple-100: var(--tone-100);
+  --color-purple-200: var(--tone-200);
+  --color-purple-300: var(--tone-300);
+  --color-purple-400: var(--tone-400);
+  --color-purple-500: var(--tone-500);
+  --color-purple-600: var(--tone-600);
+  --color-purple-700: var(--tone-700);
+  --color-purple-800: var(--tone-800);
+  --color-purple-900: var(--tone-900);
+  --color-purple-950: var(--tone-950);
+
+  --color-emerald-50: var(--tone-50);
+  --color-emerald-100: var(--tone-100);
+  --color-emerald-200: var(--tone-200);
+  --color-emerald-300: var(--tone-300);
+  --color-emerald-400: var(--tone-400);
+  --color-emerald-500: var(--tone-500);
+  --color-emerald-600: var(--tone-600);
+  --color-emerald-700: var(--tone-700);
+  --color-emerald-800: var(--tone-800);
+  --color-emerald-900: var(--tone-900);
+  --color-emerald-950: var(--tone-950);
+
+  --color-amber-50: var(--tone-50);
+  --color-amber-100: var(--tone-100);
+  --color-amber-200: var(--tone-200);
+  --color-amber-300: var(--tone-300);
+  --color-amber-400: var(--tone-400);
+  --color-amber-500: var(--tone-500);
+  --color-amber-600: var(--tone-600);
+  --color-amber-700: var(--tone-700);
+  --color-amber-800: var(--tone-800);
+  --color-amber-900: var(--tone-900);
+  --color-amber-950: var(--tone-950);
+
+  --color-sky-50: var(--tone-50);
+  --color-sky-100: var(--tone-100);
+  --color-sky-200: var(--tone-200);
+  --color-sky-300: var(--tone-300);
+  --color-sky-400: var(--tone-400);
+  --color-sky-500: var(--tone-500);
+  --color-sky-600: var(--tone-600);
+  --color-sky-700: var(--tone-700);
+  --color-sky-800: var(--tone-800);
+  --color-sky-900: var(--tone-900);
+  --color-sky-950: var(--tone-950);
+}
+
+.dark {
+  --bg-base: #141311;
+  --bg-panel: #1c1b18;
+  --bg-panel-solid: #1c1b18;
+  --bg-subtle: #242320;
+  --bg-hover: #2a2824;
+
+  --border-subtle: #34312c;
+  --border-strong: #4a463f;
+  --border-active: #b3aa9c;
+
+  /* WCAG AAA on --bg-base */
+  --text-primary: #f3efe6;   /* 16.18:1 */
+  --text-secondary: #c8c0b3; /* 10.30:1 */
+  --text-muted: #b3aa9c;     /* 8.09:1 */
+
+  --accent: #f3efe6;
+
+  --tone-50: #242320;
+  --tone-100: #2a2824;
+  --tone-200: #3a3834;
+  --tone-300: #c8c0b3;
+  --tone-400: #b3aa9c;
+  --tone-500: #f3efe6;
+  --tone-600: #f3efe6;
+  --tone-700: #f3efe6;
+  --tone-800: #242320;
+  --tone-900: #1c1b18;
+  --tone-950: #141311;
+}
