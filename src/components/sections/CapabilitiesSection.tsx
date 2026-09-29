@@ -11,8 +11,8 @@ const groups: { title: MessageKey; items: MessageKey[] }[] = [
     items: ['cap.mobile.1', 'cap.mobile.2', 'cap.mobile.3', 'cap.mobile.4'],
   },
   {
-    title: 'cap.visual',
-    items: ['cap.visual.1', 'cap.visual.2', 'cap.visual.3', 'cap.visual.4'],
+    title: 'cap.ai',
+    items: ['cap.ai.1', 'cap.ai.2', 'cap.ai.3', 'cap.ai.4'],
   },
   {
     title: 'cap.systems',

@@ -7,7 +7,7 @@ import { asset } from '../../lib/asset'
 const facts: [string, MessageKey][] = [
   ['99k+', 'hero.fact.lines'],
   ['iOS', 'hero.fact.sheet'],
-  ['3', 'hero.fact.engines'],
+  ['645', 'hero.fact.commits'],
   ['C1 / B1', 'hero.fact.lang'],
 ]
 

@@ -1,7 +1,6 @@
-import React, { Suspense, useState } from 'react'
+import React, { useState } from 'react'
 import { ThemeProvider } from './context/ThemeProvider'
 import { LocaleProvider } from './context/LocaleProvider'
-import { useLocale } from './context/useLocale'
 import { useHashRoute } from './hooks/useHashRoute'
 import { Navbar } from './components/layout/Navbar'
 import { Footer } from './components/layout/Footer'
@@ -16,15 +15,6 @@ import { CapabilitiesSection } from './components/sections/CapabilitiesSection'
 import { FytlyPage } from './pages/FytlyPage'
 import { TaskOrbitPage } from './pages/TaskOrbitPage'
 
-const GraphicsSection = React.lazy(() =>
-  import('./components/sections/GraphicsSection').then(m => ({ default: m.GraphicsSection }))
-)
-
-const GraphicsFallback: React.FC = () => {
-  const { t } = useLocale()
-  return <div className="mb-28 border border-line p-8 text-center text-faint">{t('loading.graphics')}</div>
-}
-
 const HomePage: React.FC = () => (
   <>
     <HeroSection />
@@ -33,9 +23,6 @@ const HomePage: React.FC = () => (
     <EmergencyMeshSection />
     <ResearchSection />
     <GlowCommentsSection />
-    <Suspense fallback={<GraphicsFallback />}>
-      <GraphicsSection />
-    </Suspense>
     <CapabilitiesSection />
   </>
 )
