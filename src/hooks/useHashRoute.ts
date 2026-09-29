@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react'
 
-export type AppRoute = 'home' | 'fytly'
+export type AppRoute = 'home' | 'fytly' | 'taskorbit'
 
 function readRoute(): AppRoute {
-  return window.location.hash === '#/fytly' ? 'fytly' : 'home'
+  if (window.location.hash === '#/fytly') return 'fytly'
+  if (window.location.hash === '#/taskorbit') return 'taskorbit'
+  return 'home'
 }
 
 export function useHashRoute(): AppRoute {

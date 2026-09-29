@@ -30,6 +30,9 @@ export const HeroSection: React.FC = () => {
             <Button asLink href="#/fytly" variant="primary" size="lg">
               FytlY
             </Button>
+            <a href="#taskorbit" className="text-ink underline decoration-line underline-offset-4">
+              TaskOrbit
+            </a>
             <a href="#emergency-mesh" className="text-ink underline decoration-line underline-offset-4">
               {t('hero.link.mesh')}
             </a>

@@ -1,19 +1,24 @@
 import React from 'react'
-import { Sun, Moon } from 'lucide-react'
+import { Sun, Moon, QrCode } from 'lucide-react'
 import { useTheme } from '../../context/useTheme'
 import { useLocale } from '../../context/useLocale'
 import { GithubIcon, LinkedinIcon } from '../ui/Icons'
 import type { MessageKey } from '../../i18n/messages'
 
+export interface NavbarProps {
+  onOpenQr?: () => void
+}
+
 const links: [string, MessageKey | null, string][] = [
   ['#/fytly', null, 'FytlY'],
+  ['#taskorbit', 'nav.taskorbit', 'TaskOrbit'],
   ['#emergency-mesh', 'nav.mesh', ''],
   ['#research', 'nav.research', ''],
   ['#glow-comments', null, 'Glow Comments'],
   ['#particle-triad', 'nav.graphics', ''],
 ]
 
-export const Navbar: React.FC = () => {
+export const Navbar: React.FC<NavbarProps> = ({ onOpenQr }) => {
   const { isDark, toggleTheme } = useTheme()
   const { locale, setLocale, t } = useLocale()
 
@@ -54,6 +59,18 @@ export const Navbar: React.FC = () => {
           >
             {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
           </button>
+
+          {onOpenQr && (
+            <button
+              onClick={onOpenQr}
+              type="button"
+              className="cursor-pointer p-2 text-quiet hover:text-ink transition-colors"
+              title={t('qr.button')}
+              aria-label={t('qr.button')}
+            >
+              <QrCode className="h-4 w-4" />
+            </button>
+          )}
 
           <a
             href="https://github.com/shikharthakur2404"

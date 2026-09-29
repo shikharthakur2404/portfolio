@@ -83,6 +83,58 @@ const en = {
   'cap.ielts.download': 'Download IELTS certificate',
   'footer.cv': 'Download CV',
   'loading.graphics': 'Loading graphics…',
+  'qr.button': 'QR Code',
+  'qr.title': 'Scan to view on mobile',
+  'qr.subtitle': 'Scan with your camera to open this portfolio.',
+  'qr.copy': 'Copy link',
+  'qr.copied': 'Link copied!',
+  'qr.download.png': 'Download PNG',
+  'qr.download.svg': 'Download SVG',
+  'qr.footer': 'Mobile & QR',
+  'nav.taskorbit': 'TaskOrbit',
+  'taskorbit.kicker': 'Open Source AI Agent Platform',
+  'taskorbit.title': 'TaskOrbit: Conversational Voice AI Platform (FAU AMOS)',
+  'taskorbit.lede':
+    'Built in a 12-person international Scrum team under Prof. Dirk Riehle at FAU. 68 days, 645 commits, ~46,000 lines of code. Full-stack voice agent architecture with real-time LiveKit audio, LLM orchestration, automated SBOM/compliance pipelines, and live Grafana telemetry.',
+  'taskorbit.open': 'Open Case Study & Architecture Views',
+  'taskorbit.repo': 'View GitHub Repository',
+  'taskorbit.badge': '12 Engineers · 68 Days · 645 Commits',
+  'taskorbit.card.voice.title': 'Real-Time Voice Runtime',
+  'taskorbit.card.voice.desc':
+    'Low-latency conversational agent interface with speech-to-speech feedback, LiveKit audio stream synchronization, and dynamic prompt orchestration.',
+  'taskorbit.card.telemetry.title': 'Grafana & Prometheus Telemetry',
+  'taskorbit.card.telemetry.desc':
+    'Production observability tracing end-to-end audio pipeline latency, LLM inference turnarounds, VAD thresholds, and Loki structured log indexing.',
+  'taskorbit.card.scrum.title': 'Rigorous Agile Scrum',
+  'taskorbit.card.scrum.desc':
+    'Weekly sprint cadence with acceptance criteria, Miro backlog grooming, peer pull request verification, and final Demo Day delivery under Prof. Riehle.',
+  'taskorbit.page.back': 'Back to Portfolio',
+  'taskorbit.page.title': 'TaskOrbit (FAU AMOS)',
+  'taskorbit.page.kicker': 'Agile Engineering & Voice Agent Systems',
+  'taskorbit.page.lede':
+    'A production-grade conversational AI platform developed for the AMOS project at Friedrich-Alexander-Universität Erlangen-Nürnberg. Orchestrates real-time voice interaction, persona boundary guardrails, offline model evaluation, and compliance-validated pipelines.',
+  'taskorbit.page.note':
+    'FAU AMOS Project (Summer Semester 2026) under Prof. Dr. Dirk Riehle. 12-person squad, weekly sprint demos, full SBOM audit compliance, and live deployment on GCP.',
+  'taskorbit.page.stat.team': '12-Person Squad',
+  'taskorbit.page.stat.team.label': 'International Scrum Team',
+  'taskorbit.page.stat.commits': '645 Commits',
+  'taskorbit.page.stat.commits.label': 'Shipped in 68 Days',
+  'taskorbit.page.stat.loc': '~46k LOC',
+  'taskorbit.page.stat.loc.label': 'Python, TS, Terraform',
+  'taskorbit.page.stat.stack': 'LiveKit + FastAPI',
+  'taskorbit.page.stat.stack.label': 'React + GCP Runtime',
+  'taskorbit.pillar1.title': 'Voice Runtime & Conditional Workflows',
+  'taskorbit.pillar1.body':
+    'Low-latency speech-to-speech pipeline with LiveKit audio streaming, dynamic prompt injection, and node-based conditional workflow DAG orchestration.',
+  'taskorbit.pillar2.title': 'Agent Persona & Behavioral Guardrails',
+  'taskorbit.pillar2.body':
+    'Declarative system prompt configuration, boundary violation intercepts, hallucination guardrails, and fine-grained Voice Activity Detection (VAD) tuning.',
+  'taskorbit.pillar3.title': 'Telemetry, Benchmarking & OSS Models',
+  'taskorbit.pillar3.body':
+    'Full-stack Prometheus and Grafana dashboards for turn latency tracking, alongside offline benchmark suites comparing local Ollama models with cloud LLMs.',
+  'taskorbit.pillar4.title': 'Agile Squad & FAU Demo Day',
+  'taskorbit.pillar4.body':
+    'Strict Scrum ceremonies, weekly Miro planning, peer code reviews, automated SBOM generation, and live delivery to industry evaluators at FAU Demo Day.',
 }
 
 const de: { [K in keyof typeof en]: string } = {
@@ -170,6 +222,58 @@ const de: { [K in keyof typeof en]: string } = {
   'cap.ielts.download': 'IELTS-Zertifikat herunterladen',
   'footer.cv': 'Lebenslauf laden',
   'loading.graphics': 'Grafik wird geladen…',
+  'qr.button': 'QR-Code',
+  'qr.title': 'Auf dem Smartphone öffnen',
+  'qr.subtitle': 'Mit der Kamera scannen, um dieses Portfolio direkt zu öffnen.',
+  'qr.copy': 'Link kopieren',
+  'qr.copied': 'Link kopiert!',
+  'qr.download.png': 'PNG laden',
+  'qr.download.svg': 'SVG laden',
+  'qr.footer': 'Smartphone & QR',
+  'nav.taskorbit': 'TaskOrbit',
+  'taskorbit.kicker': 'Open-Source-KI-Agenten-Plattform',
+  'taskorbit.title': 'TaskOrbit: Konversationale Sprach-KI-Plattform (FAU AMOS)',
+  'taskorbit.lede':
+    'Entwickelt in einem 12-köpfigen internationalen Scrum-Team unter Prof. Dirk Riehle an der FAU. 68 Tage, 645 Commits, rund 46.000 Zeilen Code. Vollständige Sprach-Agenten-Architektur mit LiveKit-Echtzeit-Audio, LLM-Orchestrierung, automatisierter SBOM/Compliance-Pipeline und Live-Grafana-Telemetrie.',
+  'taskorbit.open': 'Fallstudie & Architekturansichten öffnen',
+  'taskorbit.repo': 'GitHub-Repository ansehen',
+  'taskorbit.badge': '12 Ingenieure · 68 Tage · 645 Commits',
+  'taskorbit.card.voice.title': 'Echtzeit-Sprach-Laufzeit',
+  'taskorbit.card.voice.desc':
+    'Latenzoptimierte Konversationsschnittstelle mit Sprache-zu-Sprache-Feedback, LiveKit-Audiostrom-Synchronisation und dynamischer Prompt-Orchestrierung.',
+  'taskorbit.card.telemetry.title': 'Grafana- & Prometheus-Telemetrie',
+  'taskorbit.card.telemetry.desc':
+    'Produktions-Observability zur Verfolgung von Audio-Pipeline-Latenzen, LLM-Inferenzzeiten, VAD-Schwellenwerten und strukturierter Loki-Protokollierung.',
+  'taskorbit.card.scrum.title': 'Strikte agile Scrum-Methodik',
+  'taskorbit.card.scrum.desc':
+    'Wöchentliche Sprint-Zyklen mit Akzeptanzkriterien, Miro-Backlog-Pflege, Peer-Code-Reviews und finaler Präsentation am Demo Day unter Prof. Riehle.',
+  'taskorbit.page.back': 'Zurück zum Portfolio',
+  'taskorbit.page.title': 'TaskOrbit (FAU AMOS)',
+  'taskorbit.page.kicker': 'Agiles Engineering & Sprach-Agenten-Systeme',
+  'taskorbit.page.lede':
+    'Eine produktionsreife konversationale KI-Plattform, entwickelt im AMOS-Projekt an der Friedrich-Alexander-Universität Erlangen-Nürnberg. Orchestriert Echtzeit-Sprachinteraktion, Verhaltensgrenzen für Personas, Offline-Modellevaluation und compliance-validierte Pipelines.',
+  'taskorbit.page.note':
+    'FAU AMOS-Projekt (Sommersemester 2026) unter Prof. Dr. Dirk Riehle. 12-Personen-Team, wöchentliche Sprint-Demos, vollständige SBOM-Audit-Compliance und Live-Deployment auf GCP.',
+  'taskorbit.page.stat.team': '12-Personen-Team',
+  'taskorbit.page.stat.team.label': 'Internationales Scrum-Team',
+  'taskorbit.page.stat.commits': '645 Commits',
+  'taskorbit.page.stat.commits.label': 'Ausgeliefert in 68 Tagen',
+  'taskorbit.page.stat.loc': '~46.000 Zeilen',
+  'taskorbit.page.stat.loc.label': 'Python, TS, Terraform',
+  'taskorbit.page.stat.stack': 'LiveKit + FastAPI',
+  'taskorbit.page.stat.stack.label': 'React + GCP-Laufzeit',
+  'taskorbit.pillar1.title': 'Sprach-Laufzeit & Bedingte Workflows',
+  'taskorbit.pillar1.body':
+    'Latenzarme Sprache-zu-Sprache-Pipeline mit LiveKit-Audio-Streaming, dynamischer Prompt-Injektion und knotenbasierter DAG-Workflow-Orchestrierung.',
+  'taskorbit.pillar2.title': 'Agenten-Persona & Sicherheitsgrenzen',
+  'taskorbit.pillar2.body':
+    'Deklarative System-Prompt-Konfiguration, automatisches Abfangen von Regelverletzungen, Halluzinationsschutz und Feinabstimmung der Voice Activity Detection (VAD).',
+  'taskorbit.pillar3.title': 'Telemetrie, Benchmarking & OSS-Modelle',
+  'taskorbit.pillar3.body':
+    'Umfassende Prometheus- und Grafana-Dashboards zur Latenzüberwachung, ergänzt durch automatisierte Benchmarks lokaler Ollama-Modelle im Vergleich zu Cloud-LLMs.',
+  'taskorbit.pillar4.title': 'Agiles Team & FAU Demo Day',
+  'taskorbit.pillar4.body':
+    'Strikte Scrum-Zeremonien, wöchentliche Miro-Planung, Peer-Reviews, automatische SBOM-Erstellung und Live-Präsentation vor Industriegutachtern am FAU Demo Day.',
 }
 
 export type MessageKey = keyof typeof en
