@@ -1,5 +1,5 @@
 import React from 'react'
-import { Bot, Activity, GitPullRequest, ArrowRight, ExternalLink } from 'lucide-react'
+import { Bot, Activity, GitPullRequest, ArrowRight, ExternalLink, Layers } from 'lucide-react'
 import { useLocale } from '../../context/useLocale'
 import { Button } from '../ui/primitives/Button'
 import { asset } from '../../lib/asset'
@@ -19,7 +19,7 @@ export const TaskOrbitSection: React.FC = () => {
         </span>
       </div>
 
-      <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-8">
+      <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-6">
         <div>
           <h2 className="text-3xl sm:text-4xl font-bold text-ink tracking-tight">
             {t('taskorbit.title')}
@@ -31,6 +31,26 @@ export const TaskOrbitSection: React.FC = () => {
         <div className="flex items-center gap-2 font-mono text-xs text-quiet bg-subtle px-4 py-2 border border-line self-start lg:self-auto">
           <span className="w-2 h-2 rounded-full bg-emerald-500" />
           {t('taskorbit.badge')}
+        </div>
+      </div>
+
+      {/* Tech Stack Summary Strip */}
+      <div className="mb-8 rounded-xl border border-line bg-subtle/50 p-4">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div className="font-mono text-xs uppercase tracking-wider text-faint flex items-center gap-2 shrink-0">
+            <Layers className="w-3.5 h-3.5 text-ink" />
+            <span>Tech Stack</span>
+          </div>
+          <div className="flex flex-wrap gap-2 font-mono text-xs text-quiet">
+            <span className="px-2.5 py-1 rounded-md bg-panel border border-line text-ink">React 18</span>
+            <span className="px-2.5 py-1 rounded-md bg-panel border border-line text-ink">TypeScript</span>
+            <span className="px-2.5 py-1 rounded-md bg-panel border border-line text-ink">Python 3.11</span>
+            <span className="px-2.5 py-1 rounded-md bg-panel border border-line text-ink">FastAPI</span>
+            <span className="px-2.5 py-1 rounded-md bg-panel border border-line text-ink">LiveKit (WebRTC)</span>
+            <span className="px-2.5 py-1 rounded-md bg-panel border border-line text-ink">Prometheus &amp; Grafana</span>
+            <span className="px-2.5 py-1 rounded-md bg-panel border border-line text-ink">GCP &amp; Terraform</span>
+            <span className="px-2.5 py-1 rounded-md bg-panel border border-line text-ink">SBOM &amp; Grype</span>
+          </div>
         </div>
       </div>
 

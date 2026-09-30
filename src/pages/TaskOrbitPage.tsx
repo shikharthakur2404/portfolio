@@ -1,5 +1,5 @@
 import React from 'react'
-import { ArrowLeft, ExternalLink, Bot, Mic, ShieldAlert, Activity, Users } from 'lucide-react'
+import { ArrowLeft, ExternalLink, Bot, Mic, ShieldAlert, Activity, Users, Layers, Cpu, Cloud } from 'lucide-react'
 import { useLocale } from '../context/useLocale'
 import { asset } from '../lib/asset'
 
@@ -156,6 +156,102 @@ export const TaskOrbitPage: React.FC = () => {
           <dd className="font-serif text-2xl font-bold text-ink mt-1">{t('taskorbit.page.stat.stack')}</dd>
         </div>
       </div>
+
+      {/* Full-Stack Tech Stack Architecture */}
+      <section className="mb-20">
+        <div className="flex items-center gap-2 mb-2 font-mono text-xs text-quiet">
+          <Layers className="w-4 h-4 text-ink" /> ARCHITECTURE MATRIX
+        </div>
+        <h2 className="text-2xl sm:text-3xl font-bold text-ink mb-2">Full-Stack Tech Stack</h2>
+        <p className="text-sm sm:text-base text-quiet max-w-3xl mb-8">
+          Enterprise conversational AI architecture developed under Prof. Riehle at FAU, bridging low-latency WebRTC audio streaming, Python agent orchestration, and automated SBOM compliance.
+        </p>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {/* Frontend & Audio Streaming */}
+          <div className="p-6 rounded-2xl bg-panel border border-line">
+            <div className="flex items-center gap-3 mb-3">
+              <div className="p-2 rounded-lg bg-subtle text-ink border border-line">
+                <Mic className="w-4 h-4" />
+              </div>
+              <h3 className="font-sans font-bold text-base text-ink">Frontend &amp; Audio Streaming</h3>
+            </div>
+            <p className="text-sm text-quiet leading-relaxed mb-4">
+              Sub-second audio streaming client with bidirectional WebRTC data channels, dynamic state synchronization, and low-latency audio packet processing.
+            </p>
+            <div className="flex flex-wrap gap-2 font-mono text-xs">
+              <span className="px-2.5 py-1 rounded-md bg-subtle border border-line text-ink">React 18</span>
+              <span className="px-2.5 py-1 rounded-md bg-subtle border border-line text-ink">TypeScript</span>
+              <span className="px-2.5 py-1 rounded-md bg-subtle border border-line text-ink">Tailwind CSS</span>
+              <span className="px-2.5 py-1 rounded-md bg-subtle border border-line text-ink">Vite</span>
+              <span className="px-2.5 py-1 rounded-md bg-subtle border border-line text-ink">LiveKit WebRTC</span>
+              <span className="px-2.5 py-1 rounded-md bg-subtle border border-line text-ink">Audio Waveforms</span>
+            </div>
+          </div>
+
+          {/* Backend & Agent Orchestration */}
+          <div className="p-6 rounded-2xl bg-panel border border-line">
+            <div className="flex items-center gap-3 mb-3">
+              <div className="p-2 rounded-lg bg-subtle text-ink border border-line">
+                <Cpu className="w-4 h-4" />
+              </div>
+              <h3 className="font-sans font-bold text-base text-ink">Backend &amp; Agent Orchestration</h3>
+            </div>
+            <p className="text-sm text-quiet leading-relaxed mb-4">
+              High-throughput async API handling concurrent voice agent sessions, dynamic tool calling, conditional branching, and node-based stateful workflow execution.
+            </p>
+            <div className="flex flex-wrap gap-2 font-mono text-xs">
+              <span className="px-2.5 py-1 rounded-md bg-subtle border border-line text-ink">Python 3.11</span>
+              <span className="px-2.5 py-1 rounded-md bg-subtle border border-line text-ink">FastAPI</span>
+              <span className="px-2.5 py-1 rounded-md bg-subtle border border-line text-ink">Pydantic v2</span>
+              <span className="px-2.5 py-1 rounded-md bg-subtle border border-line text-ink">AsyncIO</span>
+              <span className="px-2.5 py-1 rounded-md bg-subtle border border-line text-ink">LLM Orchestration</span>
+              <span className="px-2.5 py-1 rounded-md bg-subtle border border-line text-ink">DAG Workflows</span>
+            </div>
+          </div>
+
+          {/* Guardrails & Observability */}
+          <div className="p-6 rounded-2xl bg-panel border border-line">
+            <div className="flex items-center gap-3 mb-3">
+              <div className="p-2 rounded-lg bg-subtle text-ink border border-line">
+                <ShieldAlert className="w-4 h-4" />
+              </div>
+              <h3 className="font-sans font-bold text-base text-ink">Guardrails &amp; Observability</h3>
+            </div>
+            <p className="text-sm text-quiet leading-relaxed mb-4">
+              Granular safety boundary enforcement with token interception alongside live Prometheus/Grafana telemetry tracking P95 turn latency and VAD responsiveness.
+            </p>
+            <div className="flex flex-wrap gap-2 font-mono text-xs">
+              <span className="px-2.5 py-1 rounded-md bg-subtle border border-line text-ink">Behavioral Guardrails</span>
+              <span className="px-2.5 py-1 rounded-md bg-subtle border border-line text-ink">VAD Tuning</span>
+              <span className="px-2.5 py-1 rounded-md bg-subtle border border-line text-ink">Prometheus Metrics</span>
+              <span className="px-2.5 py-1 rounded-md bg-subtle border border-line text-ink">Grafana Dashboards</span>
+              <span className="px-2.5 py-1 rounded-md bg-subtle border border-line text-ink">Grafana Loki</span>
+            </div>
+          </div>
+
+          {/* Cloud, DevOps & Compliance */}
+          <div className="p-6 rounded-2xl bg-panel border border-line">
+            <div className="flex items-center gap-3 mb-3">
+              <div className="p-2 rounded-lg bg-subtle text-ink border border-line">
+                <Cloud className="w-4 h-4" />
+              </div>
+              <h3 className="font-sans font-bold text-base text-ink">Cloud, DevOps &amp; Compliance</h3>
+            </div>
+            <p className="text-sm text-quiet leading-relaxed mb-4">
+              Production cloud infrastructure orchestrated via Terraform, automated SBOM compliance vulnerability scanning, and weekly agile Scrum delivery.
+            </p>
+            <div className="flex flex-wrap gap-2 font-mono text-xs">
+              <span className="px-2.5 py-1 rounded-md bg-subtle border border-line text-ink">Google Cloud (GCP)</span>
+              <span className="px-2.5 py-1 rounded-md bg-subtle border border-line text-ink">Terraform (IaC)</span>
+              <span className="px-2.5 py-1 rounded-md bg-subtle border border-line text-ink">Docker</span>
+              <span className="px-2.5 py-1 rounded-md bg-subtle border border-line text-ink">GitHub Actions CI/CD</span>
+              <span className="px-2.5 py-1 rounded-md bg-subtle border border-line text-ink">Syft / Grype SBOM</span>
+              <span className="px-2.5 py-1 rounded-md bg-subtle border border-line text-ink">Agile Scrum</span>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Section 1: Voice Runtime & Workflows */}
       <section className="mb-20">
