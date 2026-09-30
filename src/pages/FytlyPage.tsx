@@ -12,9 +12,6 @@ const shots: { src: string; alt: string; label: string }[] = [
   { src: asset('/assets/fytly/upper-session.png'), alt: 'Editable exercise logging screen with sets, weights, reps, and rest timers', label: 'Exercise edit' },
   { src: asset('/assets/fytly/upper-main.png'), alt: 'Completed and logged exercise history with verified sets, weights, reps, and benchmarks', label: 'Exercise history' },
   { src: asset('/assets/fytly/stretching.png'), alt: 'Stretching block on an upper-lower rest day', label: 'Stretching' },
-  { src: asset('/assets/fytly/feed.png'), alt: 'Community workout feed', label: 'Feed' },
-  { src: asset('/assets/fytly/profile.png'), alt: 'Profile and posts grid', label: 'Profile' },
-  { src: asset('/assets/fytly/create-post.png'), alt: 'Create a new post', label: 'Compose' },
 ]
 
 export const FytlyPage: React.FC = () => {
@@ -143,7 +140,7 @@ export const FytlyPage: React.FC = () => {
               <h3 className="font-sans font-bold text-base text-ink">Cloud, Persistence &amp; Release</h3>
             </div>
             <p className="text-sm text-quiet leading-relaxed mb-4">
-              Serverless cloud infrastructure handling user authentication, social workout feeds, and automated CI/CD builds for App Store deployment.
+              Serverless cloud infrastructure handling user authentication, workout data synchronization, and automated CI/CD builds for App Store deployment.
             </p>
             <div className="flex flex-wrap gap-2 font-mono text-xs">
               <span className="px-2.5 py-1 rounded-md bg-subtle border border-line text-ink">Firebase Auth</span>

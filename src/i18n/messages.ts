@@ -20,7 +20,7 @@ const en = {
   'fytly.page.back': 'Back to portfolio',
   'fytly.page.title': 'FytlY',
   'fytly.page.lede':
-    'A gamified fitness platform I co-founded and built end to end — habits, AI coach, workout logging, and a social feed — shipped to the App Store as about 99,000 lines of React Native.',
+    'A gamified fitness platform I co-founded and built end to end — habits, AI coach, workout logging, and journey progression — shipped to the App Store as about 99,000 lines of React Native.',
   'fytly.page.note': 'Startup closed in 2026. These screens are older prototypes from the product we developed; some flows were updated later in production.',
   'fytly.page.composite': 'Product overview — habits, journey, workout, and streak flows.',
   'fytly.page.gallery': 'Selected screens',
@@ -30,9 +30,9 @@ const en = {
   'fytly.page.pillar2.title': 'Workout engine',
   'fytly.page.pillar2.body':
     'Set logging, rest timers, and muscle-focused exercise cards — built for real gym sessions, not a checklist.',
-  'fytly.page.pillar3.title': 'Social layer',
+  'fytly.page.pillar3.title': 'Journey & gamification',
   'fytly.page.pillar3.body':
-    'Feed, profile, and post compose so training lived next to community, not in a separate silo.',
+    'Interactive path progression with workout milestones and streak evolution to sustain long-term training habits.',
   'mesh.kicker': 'Civilian disaster network',
   'mesh.lede':
     'A peer-to-peer network for civilian coordination in Nuremberg when power, cellular, and internet fail. Two interfaces — Bürgernetz and Taktisch — plus offline multi-hop relay and on-device privacy for family messages.',
@@ -153,7 +153,7 @@ const de: { [K in keyof typeof en]: string } = {
   'fytly.page.back': 'Zurück zum Portfolio',
   'fytly.page.title': 'FytlY',
   'fytly.page.lede':
-    'Eine gamifizierte Fitness-Plattform, die ich mitgegründet und durchgängig gebaut habe — Gewohnheiten, KI-Coach, Trainingsprotokoll und Social Feed — als rund 99.000 Zeilen React Native im App Store.',
+    'Eine gamifizierte Fitness-Plattform, die ich mitgegründet und durchgängig gebaut habe — Gewohnheiten, KI-Coach, Trainingsprotokoll und Journey-Progression — als rund 99.000 Zeilen React Native im App Store.',
   'fytly.page.note': 'Startup 2026 geschlossen. Die Ansichten sind ältere Prototypen aus dem Produkt, das wir entwickelt haben; einige Flows wurden später in Produktion weiterentwickelt.',
   'fytly.page.composite': 'Produktüberblick — Habits, Journey, Workout und Streak-Flows.',
   'fytly.page.gallery': 'Ausgewählte Ansichten',
@@ -163,9 +163,9 @@ const de: { [K in keyof typeof en]: string } = {
   'fytly.page.pillar2.title': 'Workout-Engine',
   'fytly.page.pillar2.body':
     'Satzprotokoll, Pausentimer und muskelbezogene Übungskarten — für echte Gym-Sessions, nicht für eine Checkliste.',
-  'fytly.page.pillar3.title': 'Soziale Schicht',
+  'fytly.page.pillar3.title': 'Journey & Gamification',
   'fytly.page.pillar3.body':
-    'Feed, Profil und Post-Compose, damit Training neben der Community lebte, nicht in einem separaten Silo.',
+    'Interaktive Pfadprogression mit Trainingsmeilensteinen und Streak-Evolution zur langfristigen Festigung von Trainingsgewohnheiten.',
   'mesh.kicker': 'Ziviles Notnetz',
   'mesh.lede':
     'Ein Peer-to-Peer-Netz für die zivile Koordination in Nürnberg, wenn Strom, Mobilfunk und Internet ausfallen. Zwei Oberflächen — Bürgernetz und Taktisch — dazu Offline-Multi-Hop und Geräteschutz für Familiennachrichten.',
