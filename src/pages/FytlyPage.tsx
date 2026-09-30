@@ -4,14 +4,20 @@ import { useLocale } from '../context/useLocale'
 import { asset } from '../lib/asset'
 
 const shots: { src: string; alt: string; label: string }[] = [
-  { src: asset('/assets/fytly/splash.png'), alt: 'FytlY splash screen', label: 'Splash' },
-  { src: asset('/assets/fytly/habits.png'), alt: 'Daily habits with Fyty mascot', label: 'Habits' },
-  { src: asset('/assets/fytly/add-habit.png'), alt: 'Add a new habit with suggestions', label: 'Add habit' },
-  { src: asset('/assets/fytly/journey.png'), alt: 'Journey path with workouts and treasure reward', label: 'Journey' },
-  { src: asset('/assets/fytly/workout.png'), alt: 'Active workout logging', label: 'Workout' },
+  { src: asset('/assets/fytly/splash.png'), alt: 'Splash screen with the green dragon mascot', label: 'Splash' },
+  { src: asset('/assets/fytly/coach.png'), alt: 'AI Coach Lilly with muscle recovery gauge and workout swap advice', label: 'AI Coach' },
+  { src: asset('/assets/fytly/habits.png'), alt: 'Daily habits grid with streak counters and character evolution', label: 'Habits' },
+  { src: asset('/assets/fytly/streak.png'), alt: '84-day streak milestone celebration with weekly consistency tracking', label: 'Streak engine' },
+  { src: asset('/assets/fytly/journey.png'), alt: 'Interactive workout map with day-by-day path progression', label: 'Journey' },
+  { src: asset('/assets/fytly/workout.png'), alt: 'Workout overview with anatomical muscle focus guidance', label: 'Workout overview' },
+  { src: asset('/assets/fytly/active-training.png'), alt: 'Live workout execution player with real-time rep and weight logging', label: 'Workout player' },
+  { src: asset('/assets/fytly/hold-exercise.png'), alt: 'Timed hold exercise interface with countdown timer and muscle engagement', label: 'Timed exercise' },
+  { src: asset('/assets/fytly/rest-timer.png'), alt: 'Inter-set recovery timer with countdown and skip control', label: 'Rest timer' },
   { src: asset('/assets/fytly/upper-session.png'), alt: 'Editable exercise logging screen with sets, weights, reps, and rest timers', label: 'Exercise edit' },
   { src: asset('/assets/fytly/upper-main.png'), alt: 'Completed and logged exercise history with verified sets, weights, reps, and benchmarks', label: 'Exercise history' },
-  { src: asset('/assets/fytly/stretching.png'), alt: 'Stretching block on an upper-lower rest day', label: 'Stretching' },
+  { src: asset('/assets/fytly/workout-summary.png'), alt: 'Post-workout celebration screen with volume load, PR count, and session duration', label: 'Workout summary' },
+  { src: asset('/assets/fytly/exercise-records.png'), alt: 'Exercise personal record history with mascot celebration and benchmarks', label: 'Personal records' },
+  { src: asset('/assets/fytly/fytly-plus.png'), alt: 'FytlY+ tier with mascot evolution, muscle rank badges, and AI workout generator', label: 'FytlY+ tier' },
 ]
 
 export const FytlyPage: React.FC = () => {

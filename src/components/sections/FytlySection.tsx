@@ -109,7 +109,7 @@ export const FytlySection: React.FC = () => {
             <Terminal className="w-4 h-4" /> PRODUCT SCREENS
           </div>
           <h4 className="text-xl font-bold text-ink mb-2">
-            Habits, workouts, journey, and logging
+            AI coach, workout player, habits, and journey
           </h4>
           <p className="text-sm text-quiet leading-relaxed">
             Selected Figma screens from the shipping build. Architecture notes stay on this page; the product lives one click deeper.
