@@ -15,6 +15,7 @@ const links: [string, MessageKey | null, string][] = [
   ['#emergency-mesh', 'nav.mesh', ''],
   ['#research', 'nav.research', ''],
   ['#glow-comments', null, 'Glow Comments'],
+  ['#graphics', 'nav.graphics', ''],
 ]
 
 export const Navbar: React.FC<NavbarProps> = ({ onOpenQr }) => {

@@ -2,6 +2,7 @@ const en = {
   'lang.label': 'Language',
   'nav.mesh': 'Emergency Mesh',
   'nav.research': 'Research',
+  'nav.graphics': 'Graphics',
   'hero.kicker': 'Nuremberg · Open to a Master’s thesis and engineering roles in Germany',
   'hero.title': 'Production mobile software.',
   'hero.lede':
@@ -54,6 +55,10 @@ const en = {
   'glow.kicker': 'Developer tooling',
   'glow.lede':
     'A published extension for VS Code, Cursor, and Antigravity. It makes the places you have not actually checked visible in generated code.',
+  'graphics.kicker': 'Visual computing',
+  'graphics.title': 'Cosmic Particle & Astrophysics Engines',
+  'graphics.lede':
+    'Real-time astrophysics observatory and cinematic particle simulation rendered in WebGL, Three.js, and custom GLSL shaders.',
   'cap.title': 'Capabilities',
   'cap.mobile': 'Mobile',
   'cap.ai': 'AI & Voice Systems',
@@ -77,6 +82,7 @@ const en = {
   'cap.background.4': 'German B1',
   'cap.ielts.download': 'Download IELTS certificate',
   'footer.cv': 'Download CV',
+  'loading.graphics': 'Loading graphics…',
   'qr.button': 'QR Code',
   'qr.title': 'Scan to view on mobile',
   'qr.subtitle': 'Scan with your camera to open this portfolio.',
@@ -135,6 +141,7 @@ const de: { [K in keyof typeof en]: string } = {
   'lang.label': 'Sprache',
   'nav.mesh': 'Notnetz',
   'nav.research': 'Forschung',
+  'nav.graphics': 'Grafik',
   'hero.kicker': 'Nürnberg · Offen für eine Masterarbeit und Ingenieurstellen in Deutschland',
   'hero.title': 'Mobile Software in Produktion.',
   'hero.lede':
@@ -187,6 +194,10 @@ const de: { [K in keyof typeof en]: string } = {
   'glow.kicker': 'Werkzeuge',
   'glow.lede':
     'Veröffentlichte Erweiterung für VS Code, Cursor und Antigravity. Sie macht im erzeugten Code die Stellen sichtbar, die noch niemand geprüft hat.',
+  'graphics.kicker': 'Bildrechnen',
+  'graphics.title': 'Kosmische Partikel- & Astrophysik-Engines',
+  'graphics.lede':
+    'Echtzeit-Astrophysik-Observatorium und cineastische Partikelsimulation mit WebGL, Three.js und benutzerdefinierten GLSL-Shadern.',
   'cap.title': 'Fähigkeiten',
   'cap.mobile': 'Mobile',
   'cap.ai': 'KI- & Sprachsysteme',
@@ -210,6 +221,7 @@ const de: { [K in keyof typeof en]: string } = {
   'cap.background.4': 'Deutsch B1',
   'cap.ielts.download': 'IELTS-Zertifikat herunterladen',
   'footer.cv': 'Lebenslauf laden',
+  'loading.graphics': 'Grafik wird geladen…',
   'qr.button': 'QR-Code',
   'qr.title': 'Auf dem Smartphone öffnen',
   'qr.subtitle': 'Mit der Kamera scannen, um dieses Portfolio direkt zu öffnen.',
