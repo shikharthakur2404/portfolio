@@ -33,7 +33,7 @@ export const GlowCommentsSection: React.FC = () => {
             Live on VS Marketplace &amp; Open VSX
           </span>
           <span className="px-3 py-1 rounded-full bg-subtle border border-line text-quiet">
-            TypeScript + esbuild
+            TypeScript + esbuild · 2024
           </span>
         </div>
       </div>

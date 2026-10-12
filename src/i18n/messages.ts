@@ -3,6 +3,7 @@ const en = {
   'nav.mesh': 'Emergency Mesh',
   'nav.research': 'Research',
   'nav.graphics': 'Graphics',
+  'nav.heylime': 'Heylime',
   'hero.kicker': 'Nuremberg · Open to a Master’s thesis and engineering roles in Germany',
   'hero.title': 'Production mobile software.',
   'hero.lede':
@@ -13,7 +14,7 @@ const en = {
   'hero.fact.lang': 'English / German',
   'hero.link.mesh': 'Emergency Mesh',
   'hero.link.paper': 'Research paper',
-  'fytly.kicker': 'Flagship engineering',
+  'fytly.kicker': 'Flagship engineering · 2023 – 2026',
   'fytly.title': 'FytlY: 99k LOC production mobile platform',
   'fytly.lede':
     'Architected from zero to 99,000 lines of React Native and shipped to the App Store. Investor conversations with a Munich firm; product closed cleanly in 2026. Built with strict architectural boundaries.',
@@ -34,12 +35,12 @@ const en = {
   'fytly.page.pillar3.title': 'Journey & gamification',
   'fytly.page.pillar3.body':
     'Interactive path progression with workout milestones and streak evolution to sustain long-term training habits.',
-  'mesh.kicker': 'Civilian disaster network',
+  'mesh.kicker': 'Civilian disaster network · 2024 – 2025',
   'mesh.lede':
     'A peer-to-peer network for civilian coordination in Nuremberg when power, cellular, and internet fail. Two interfaces — Bürgernetz and Taktisch — plus offline multi-hop relay and on-device privacy for family messages.',
   'mesh.status':
     'Two-phone testing is still in progress. A live hop needs a second handset, and I only have one at the moment.',
-  'mesh.live': 'v1.0.0 live on Android',
+  'mesh.live': 'v1.0.0 live on Android · 2024 – 2025',
   'mesh.civic': 'Bürgernetz',
   'mesh.tactical': 'Taktisch',
   'mesh.note.civic': 'The shipped civic interface.',
@@ -48,14 +49,14 @@ const en = {
   'mesh.sos': 'Notruf',
   'mesh.family': 'Familie',
   'mesh.places': 'Orte',
-  'research.kicker': 'Academic research',
+  'research.kicker': 'Academic research · 2026',
   'research.title': 'The Productivity Paradox of Generative AI in Software Development',
   'research.lede':
     'A seminar paper on why faster code generation does not become engineering output in a straight line. Written during the M.Sc. in Information Systems.',
-  'glow.kicker': 'Developer tooling',
+  'glow.kicker': 'Developer tooling · 2024',
   'glow.lede':
     'A published extension for VS Code, Cursor, and Antigravity. It makes the places you have not actually checked visible in generated code.',
-  'graphics.kicker': 'Visual computing',
+  'graphics.kicker': 'Visual computing · 2024',
   'graphics.title': 'Cosmic Particle & Astrophysics Engines',
   'graphics.lede':
     'Real-time astrophysics observatory and cinematic particle simulation rendered in WebGL, Three.js, and custom GLSL shaders.',
@@ -92,13 +93,13 @@ const en = {
   'qr.download.svg': 'Download SVG',
   'qr.footer': 'Mobile & QR',
   'nav.taskorbit': 'TaskOrbit',
-  'taskorbit.kicker': 'Open Source AI Agent Platform',
+  'taskorbit.kicker': 'Open Source AI Agent Platform · 2026',
   'taskorbit.title': 'TaskOrbit: Conversational Voice AI Platform (FAU AMOS)',
   'taskorbit.lede':
     'Built in a 12-person international Scrum team under Prof. Dirk Riehle at FAU. 68 days, 645 commits, ~46,000 lines of code. Full-stack voice agent architecture with real-time LiveKit audio, LLM orchestration, automated SBOM/compliance pipelines, and live Grafana telemetry.',
   'taskorbit.open': 'Open Case Study & Architecture Views',
   'taskorbit.repo': 'View GitHub Repository',
-  'taskorbit.badge': '12 Engineers · 68 Days · 645 Commits',
+  'taskorbit.badge': '12 Engineers · 68 Days · 2026',
   'taskorbit.card.voice.title': 'Real-Time Voice Runtime',
   'taskorbit.card.voice.desc':
     'Low-latency conversational agent interface with speech-to-speech feedback, LiveKit audio stream synchronization, and dynamic prompt orchestration.',
@@ -110,7 +111,7 @@ const en = {
     'Weekly sprint cadence with acceptance criteria, Miro backlog grooming, peer pull request verification, and final Demo Day delivery under Prof. Riehle.',
   'taskorbit.page.back': 'Back to Portfolio',
   'taskorbit.page.title': 'TaskOrbit (FAU AMOS)',
-  'taskorbit.page.kicker': 'Agile Engineering & Voice Agent Systems',
+  'taskorbit.page.kicker': 'Agile Engineering & Voice Agent Systems · 2026',
   'taskorbit.page.lede':
     'A production-grade conversational AI platform developed for the AMOS project at Friedrich-Alexander-Universität Erlangen-Nürnberg. Orchestrates real-time voice interaction, persona boundary guardrails, offline model evaluation, and compliance-validated pipelines.',
   'taskorbit.page.note':
@@ -135,6 +136,17 @@ const en = {
   'taskorbit.pillar4.title': 'Agile Squad & FAU Demo Day',
   'taskorbit.pillar4.body':
     'Strict Scrum ceremonies, weekly Miro planning, peer code reviews, automated SBOM generation, and live delivery to industry evaluators at FAU Demo Day.',
+  'heylime.kicker': 'Mobile architecture & team wellness · 2021 – 2022',
+  'heylime.title': 'Heylime: Social Gaming & Team Wellness Platform',
+  'heylime.lede':
+    'Originally architected as GameApart — a multiplayer party game platform with 30+ interactive game modules — and later rebranded to Heylime, expanding into cooperative team wellness, guided mindfulness routines, and QR-paired challenges in React Native.',
+  'heylime.status': 'React Native · AWS Amplify · 2021 – 2022',
+  'nav.leva': 'Leva',
+  'leva.kicker': 'Maternal & infant health · 2022 – 2023',
+  'leva.title': 'Leva: Postpartum Care & Infant Growth Telemetry',
+  'leva.lede':
+    'A production maternal and infant health application shipped to the App Store (id1641438281). Engineered date-looped feeding and percentile growth charts over patched react-native-gifted-charts internals, client-side payload encryption/decryption, Firebase Dynamic Links deferred routing, and timezone-synchronized onboarding.',
+  'leva.status': 'React Native · App Store · 2022 – 2023',
 }
 
 const de: { [K in keyof typeof en]: string } = {
@@ -142,6 +154,7 @@ const de: { [K in keyof typeof en]: string } = {
   'nav.mesh': 'Notnetz',
   'nav.research': 'Forschung',
   'nav.graphics': 'Grafik',
+  'nav.heylime': 'Heylime',
   'hero.kicker': 'Nürnberg · Offen für eine Masterarbeit und Ingenieurstellen in Deutschland',
   'hero.title': 'Mobile Software in Produktion.',
   'hero.lede':
@@ -152,7 +165,7 @@ const de: { [K in keyof typeof en]: string } = {
   'hero.fact.lang': 'Englisch / Deutsch',
   'hero.link.mesh': 'Notnetz',
   'hero.link.paper': 'Forschungspapier',
-  'fytly.kicker': 'Hauptarbeit',
+  'fytly.kicker': 'Hauptarbeit · 2023 – 2026',
   'fytly.title': 'FytlY: 99.000 Zeilen, produktive Mobile-Plattform',
   'fytly.lede':
     'Von null auf 99.000 Zeilen React Native und im App Store ausgeliefert. Investorengespräche mit einer Münchner Firma; Produkt 2026 sauber geschlossen. Gebaut mit strikten architektonischen Grenzen.',
@@ -173,12 +186,12 @@ const de: { [K in keyof typeof en]: string } = {
   'fytly.page.pillar3.title': 'Journey & Gamification',
   'fytly.page.pillar3.body':
     'Interaktive Pfadprogression mit Trainingsmeilensteinen und Streak-Evolution zur langfristigen Festigung von Trainingsgewohnheiten.',
-  'mesh.kicker': 'Ziviles Notnetz',
+  'mesh.kicker': 'Ziviles Notnetz · 2024 – 2025',
   'mesh.lede':
     'Ein Peer-to-Peer-Netz für die zivile Koordination in Nürnberg, wenn Strom, Mobilfunk und Internet ausfallen. Zwei Oberflächen — Bürgernetz und Taktisch — dazu Offline-Multi-Hop und Geräteschutz für Familiennachrichten.',
   'mesh.status':
     'Der Test mit zwei Telefonen läuft noch. Einen echten Hop zeigt das Netz erst mit einem zweiten Gerät, und ich habe derzeit nur eines.',
-  'mesh.live': 'v1.0.0 live auf Android',
+  'mesh.live': 'v1.0.0 live auf Android · 2024 – 2025',
   'mesh.civic': 'Bürgernetz',
   'mesh.tactical': 'Taktisch',
   'mesh.note.civic': 'Die ausgelieferte zivile Oberfläche.',
@@ -187,14 +200,14 @@ const de: { [K in keyof typeof en]: string } = {
   'mesh.sos': 'Notruf',
   'mesh.family': 'Familie',
   'mesh.places': 'Orte',
-  'research.kicker': 'Forschung',
+  'research.kicker': 'Forschung · 2026',
   'research.title': 'Das Produktivitätsparadox generativer KI in der Softwareentwicklung',
   'research.lede':
     'Eine Seminararbeit darüber, warum schneller erzeugter Code nicht geradlinig zu mehr Ingenieursleistung wird. Geschrieben im Master Wirtschaftsinformatik.',
-  'glow.kicker': 'Werkzeuge',
+  'glow.kicker': 'Werkzeuge · 2024',
   'glow.lede':
     'Veröffentlichte Erweiterung für VS Code, Cursor und Antigravity. Sie macht im erzeugten Code die Stellen sichtbar, die noch niemand geprüft hat.',
-  'graphics.kicker': 'Bildrechnen',
+  'graphics.kicker': 'Bildrechnen · 2024',
   'graphics.title': 'Kosmische Partikel- & Astrophysik-Engines',
   'graphics.lede':
     'Echtzeit-Astrophysik-Observatorium und cineastische Partikelsimulation mit WebGL, Three.js und benutzerdefinierten GLSL-Shadern.',
@@ -231,13 +244,13 @@ const de: { [K in keyof typeof en]: string } = {
   'qr.download.svg': 'SVG laden',
   'qr.footer': 'Smartphone & QR',
   'nav.taskorbit': 'TaskOrbit',
-  'taskorbit.kicker': 'Open-Source-KI-Agenten-Plattform',
+  'taskorbit.kicker': 'Open-Source-KI-Agenten-Plattform · 2026',
   'taskorbit.title': 'TaskOrbit: Konversationale Sprach-KI-Plattform (FAU AMOS)',
   'taskorbit.lede':
     'Entwickelt in einem 12-köpfigen internationalen Scrum-Team unter Prof. Dirk Riehle an der FAU. 68 Tage, 645 Commits, rund 46.000 Zeilen Code. Vollständige Sprach-Agenten-Architektur mit LiveKit-Echtzeit-Audio, LLM-Orchestrierung, automatisierter SBOM/Compliance-Pipeline und Live-Grafana-Telemetrie.',
   'taskorbit.open': 'Fallstudie & Architekturansichten öffnen',
   'taskorbit.repo': 'GitHub-Repository ansehen',
-  'taskorbit.badge': '12 Ingenieure · 68 Tage · 645 Commits',
+  'taskorbit.badge': '12 Ingenieure · 68 Tage · 2026',
   'taskorbit.card.voice.title': 'Echtzeit-Sprach-Laufzeit',
   'taskorbit.card.voice.desc':
     'Latenzoptimierte Konversationsschnittstelle mit Sprache-zu-Sprache-Feedback, LiveKit-Audiostrom-Synchronisation und dynamischer Prompt-Orchestrierung.',
@@ -249,7 +262,7 @@ const de: { [K in keyof typeof en]: string } = {
     'Wöchentliche Sprint-Zyklen mit Akzeptanzkriterien, Miro-Backlog-Pflege, Peer-Code-Reviews und finaler Präsentation am Demo Day unter Prof. Riehle.',
   'taskorbit.page.back': 'Zurück zum Portfolio',
   'taskorbit.page.title': 'TaskOrbit (FAU AMOS)',
-  'taskorbit.page.kicker': 'Agiles Engineering & Sprach-Agenten-Systeme',
+  'taskorbit.page.kicker': 'Agiles Engineering & Sprach-Agenten-Systeme · 2026',
   'taskorbit.page.lede':
     'Eine produktionsreife konversationale KI-Plattform, entwickelt im AMOS-Projekt an der Friedrich-Alexander-Universität Erlangen-Nürnberg. Orchestriert Echtzeit-Sprachinteraktion, Verhaltensgrenzen für Personas, Offline-Modellevaluation und compliance-validierte Pipelines.',
   'taskorbit.page.note':
@@ -274,6 +287,17 @@ const de: { [K in keyof typeof en]: string } = {
   'taskorbit.pillar4.title': 'Agiles Team & FAU Demo Day',
   'taskorbit.pillar4.body':
     'Strikte Scrum-Zeremonien, wöchentliche Miro-Planung, Peer-Reviews, automatische SBOM-Erstellung und Live-Präsentation vor Industriegutachtern am FAU Demo Day.',
+  'heylime.kicker': 'Mobile-Architektur & Team-Wellness · 2021 – 2022',
+  'heylime.title': 'Heylime: Social Gaming- & Team-Wellness-Plattform',
+  'heylime.lede':
+    'Ursprünglich als GameApart entwickelt — eine Multiplayer-Partyspiel-Plattform mit über 30 interaktiven Spielmodulen — und später zu Heylime weiterentwickelt, erweitert um kooperative Team-Wellness, geführte Achtsamkeitsroutinen und QR-gekoppelte Challenges in React Native.',
+  'heylime.status': 'React Native · AWS Amplify · 2021 – 2022',
+  'nav.leva': 'Leva',
+  'leva.kicker': 'Mutter- & Kind-Gesundheit · 2022 – 2023',
+  'leva.title': 'Leva: Postpartale Pflege & Wachstums-Telemetrie',
+  'leva.lede':
+    'Eine produktive Mutter- und Säuglingsgesundheits-App im App Store (id1641438281). Entwicklung datumsbasierter Still- und Perzentil-Wachstumsdiagramme über angepasste react-native-gifted-charts-Interna, clientseitige Datenverschlüsselung/-entschlüsselung, verzögertes Deep-Linking via Firebase Dynamic Links und zeitzonensynchronisiertes Onboarding.',
+  'leva.status': 'React Native · App Store · 2022 – 2023',
 }
 
 export type MessageKey = keyof typeof en

@@ -33,6 +33,9 @@ export const HeroSection: React.FC = () => {
             <a href="#taskorbit" className="text-ink underline decoration-line underline-offset-4">
               TaskOrbit
             </a>
+            <a href="#heylime" className="text-ink underline decoration-line underline-offset-4">
+              Heylime
+            </a>
             <a href="#emergency-mesh" className="text-ink underline decoration-line underline-offset-4">
               {t('hero.link.mesh')}
             </a>

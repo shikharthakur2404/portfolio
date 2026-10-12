@@ -37,7 +37,7 @@ export const CoverLetterSection: React.FC = () => {
             n8n + Gemini Flash
           </span>
           <span className="px-3 py-1 rounded-full bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-500/30 text-amber-700 dark:text-amber-300">
-            DIN 5008 Standard
+            DIN 5008 Standard · 2026
           </span>
         </div>
       </div>

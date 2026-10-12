@@ -33,7 +33,7 @@ export const GraphicsSection: React.FC = () => {
             <div className="flex items-center justify-between mb-4">
               <div className="flex items-center gap-2">
                 <span className="font-mono text-xs text-emerald-700 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/60 px-2.5 py-1 rounded border border-emerald-200 dark:border-emerald-500/30">
-                  WebGL / Three.js
+                  WebGL / Three.js · 2024
                 </span>
                 <span className="flex items-center gap-1 font-mono text-[10px] text-emerald-700 dark:text-emerald-300 bg-emerald-50 dark:bg-emerald-950/40 px-2 py-0.5 rounded border border-emerald-200 dark:border-emerald-500/20">
                   <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 dark:bg-emerald-400" /> LIVE
@@ -103,7 +103,7 @@ export const GraphicsSection: React.FC = () => {
           <div>
             <div className="flex items-center justify-between mb-4">
               <span className="font-mono text-xs text-cyan-700 dark:text-cyan-400 bg-cyan-50 dark:bg-cyan-950/60 px-2.5 py-1 rounded border border-cyan-200 dark:border-cyan-500/30">
-                WebGL2 + GLSL
+                WebGL2 + GLSL · 2024
               </span>
               <a
                 href="https://github.com/shikharthakur2404/nebelkern"

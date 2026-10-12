@@ -12,6 +12,8 @@ export interface NavbarProps {
 const links: [string, MessageKey | null, string][] = [
   ['#/fytly', null, 'FytlY'],
   ['#taskorbit', 'nav.taskorbit', 'TaskOrbit'],
+  ['#heylime', 'nav.heylime', 'Heylime'],
+  ['#leva', 'nav.leva', 'Leva'],
   ['#emergency-mesh', 'nav.mesh', ''],
   ['#research', 'nav.research', ''],
   ['#glow-comments', null, 'Glow Comments'],

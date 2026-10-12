@@ -9,6 +9,8 @@ import { QrModal } from './components/ui/QrModal'
 import { HeroSection } from './components/sections/HeroSection'
 import { FytlySection } from './components/sections/FytlySection'
 import { TaskOrbitSection } from './components/sections/TaskOrbitSection'
+import { HeylimeSection } from './components/sections/HeylimeSection'
+import { LevaSection } from './components/sections/LevaSection'
 import { EmergencyMeshSection } from './components/sections/EmergencyMeshSection'
 import { ResearchSection } from './components/sections/ResearchSection'
 import { GlowCommentsSection } from './components/sections/GlowCommentsSection'
@@ -30,6 +32,8 @@ const HomePage: React.FC = () => (
     <HeroSection />
     <FytlySection />
     <TaskOrbitSection />
+    <HeylimeSection />
+    <LevaSection />
     <EmergencyMeshSection />
     <ResearchSection />
     <GlowCommentsSection />

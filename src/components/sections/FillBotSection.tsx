@@ -28,7 +28,7 @@ export const FillBotSection: React.FC = () => {
         <div className="flex flex-wrap items-center gap-2 font-mono text-xs">
           <span className="px-3 py-1 rounded-full bg-sky-50 dark:bg-sky-950/60 border border-sky-200 dark:border-sky-500/30 text-sky-700 dark:text-sky-300 flex items-center gap-1.5 ">
             <span className="w-2 h-2 rounded-full bg-sky-500 dark:bg-sky-400 " />
-            Chrome &amp; Brave &amp; Edge (MV3)
+            Chrome &amp; Brave &amp; Edge (MV3) · 2026
           </span>
           <span className="px-3 py-1 rounded-full bg-subtle border border-line text-quiet">
             Gemini 2.5 Flash Cascade
