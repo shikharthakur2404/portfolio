@@ -26,3 +26,9 @@ Personal portfolio showcasing mobile architectures, academic AI research, and re
 npm install
 npm run dev
 ```
+
+---
+
+Copyright © 2026 Shikhar Thakur.
+
+Released under the MIT License — see [LICENSE](LICENSE).
